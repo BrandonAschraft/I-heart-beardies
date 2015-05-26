@@ -1,5 +1,5 @@
 *{
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     background-color:black;
     
 }
@@ -38,23 +38,26 @@ a:active {
 
 
 .header {
-  min-height:260px; 
+  max-height:300px; 
   max-width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(white, black);
+  
 } 
 
 .Header_Logo {
-  float:Left;
+  /*float:Left;*/
 }
 
 .navigation{
+  display: inline;
   margin:0;
   border-radius: 30%;
 }
 
-nav li {
-  color:white;
+nav {
+    
+    color:white;
     display: inline-block;
     margin: 0;
     padding:3px 10px;
