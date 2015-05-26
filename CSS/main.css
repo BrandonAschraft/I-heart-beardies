@@ -1,21 +1,23 @@
 *{
     border:1px solid blue;
+    background-color:black;
     
 }
 
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(255, 169, 73);
+  color:black;
   text-decoration: none;
+  background-color:#fa0085;
 }
 
 a:visited {
-  color: lightblue;
+  color: white;
 }
 
 a:hover {
-  color: rgba(255, 169, 73, .4);
+  color: rgba(255, 255, 255, .4);
 }
 
 a:active {
@@ -39,12 +41,43 @@ a:active {
   min-height:260px; 
   max-width: 100%;
   background-repeat: no-repeat;
-  background-image: url("../image-files/HeaderLogo.jpg");
+  background-image: linear-gradient(white, black);
+} 
+
+.Header_Logo {
+  float:Left;
 }
 
-.navigation {
+.navigation{
+  margin:0;
+  border-radius: 30%;
+}
+
+nav li {
+  color:white;
     display: inline-block;
     margin: 0;
-    padding:0;
-    max-height: 26px;
+    padding:3px 10px;
+    background-color: #fa0085;
+    background-image: linar-gradient(#000,#fa0085);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
