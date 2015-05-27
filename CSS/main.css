@@ -1,6 +1,6 @@
 *{
     /*border:1px solid blue;*/
-    background-color:black;
+    /*background-color:black;*/
     
 }
 
@@ -30,7 +30,9 @@ a:active {
 
 
 
-
+body {
+  background-color: red;
+}
 
 
 
@@ -38,6 +40,8 @@ a:active {
 
 
 .header {
+  margin:0;
+  padding:0;
   max-height:300px; 
   max-width: 100%;
   background-repeat: no-repeat;
@@ -47,6 +51,7 @@ a:active {
 
 .Header_Logo {
   /*float:Left;*/
+  box-shadow:10px 200px 7px;
 }
 
 .navigation{
@@ -55,13 +60,13 @@ a:active {
   border-radius: 30%;
 }
 
-nav {
+nav li{
     
     color:white;
-    display: inline-block;
+    display: inline;
     margin: 0;
-    padding:3px 10px;
-    background-color: #fa0085;
+    padding: 0;
+    /*background-color: #fa0085;*/
     background-image: linar-gradient(#000,#fa0085);
 }
 
