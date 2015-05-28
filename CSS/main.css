@@ -1,3 +1,5 @@
+
+/********All Call rules**************/
 *{
     /*border:1px solid blue;*/
     /*background-color:black;*/
@@ -9,7 +11,7 @@
 a:link {
   color:black;
   text-decoration: none;
-  background-color:#fa0085;
+  /*background-color:#fa0085;*/
 }
 
 a:visited {
@@ -28,7 +30,7 @@ a:active {
 
 
 
-
+/********Styles started w/ index.html*********/
 
 body {
   background-color: black;
@@ -36,46 +38,95 @@ body {
 
 
 
-
-
-
 .header {
+  column-count: 2;
   margin:0;
   padding:0;
   max-height:230px; 
+  min-height:300px;
   max-width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(white, black );
 } 
 
-.Header_Logo {
-  /*float:Left;*/
- 
+.tagline {
+  font-size: 2.2rem;
+  color:#fa0085;
+  float:right;
+  margin:auto 15% 20px 10px;
+  padding-top:5%;
+}
+nav {
+  /*border:5px solid green;*/
+  background-image:radial-gradient(#fa0085,#000);
 }
 
 .navigation{
-  display: inline;
-  margin:0;
-  border-radius: 30%;
+  justify:right;
+  margin:0 auto;
+  display: none;
+  border-radius: 0;
+  max-width:100%;
+  
 }
+
 
 nav li{
-    
+    /*float: right;*/
     color:white;
     display: inline;
-    margin: 0;
-    padding: 0;
-    /*background-color: #fa0085;*/
-    background-image: linar-gradient(#000,#fa0085);
+    
+    margin:5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: radial-gradient(60 #fa0085,#000 );
 }
 
 
 
+/*****CONTACT PAGE STYLES*******************/
 
+.form_title{
+  font-size:3rem;
+  color:#fa0085;
+}
 
+.contact_form{
+  float:left;
+  margin:3% auto;
+}
 
+form {
+  min-width: 350px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #000;
+  border-radius: 10px;
+}
 
+.DragonAvailsNote{
+  float:center;
+  margin:10% auto;
+  min-width:350px;
+  max-width: 50%;
+  max-height:100px;
+   color:white;
+}
 
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.labels {
+  display:block;
+  color:white;
+  min-width:100%;
+}
+
+.fields {
+  min-width:100%;
+}
 
 
 
