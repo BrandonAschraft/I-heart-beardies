@@ -6,6 +6,8 @@
     
 }
 
+
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -25,6 +27,11 @@ a:hover {
 a:active {
   color: lightcoral;
 }
+
+/*.text_links {*/
+/*  color:white;*/
+/*  text-decoration:underline;*/
+/*}*/
 
 
 
@@ -49,21 +56,29 @@ body {
   background-image: linear-gradient(white, black );
 } 
 
+
 .tagline {
   font-size: 2.2rem;
   color:#fa0085;
   float:right;
-  margin:20px 25% 20px 10px;
+  margin:20px 15% 20px 10px;
   padding-top:5%;
+  text-shadow:1px 1px #000;
+ text-transform: uppercase;
 }
 nav {
   /*border:5px solid green;*/
   background-image:radial-gradient(#fa0085,#000);
+  margin: 0 auto;
+}
+
+.page_list{
+  width: 73%;
+  margin: 0 auto;
 }
 
 .navigation{
-  justify:right;
-  margin:0 auto;
+  margin:auto;
   display: none;
   border-radius: 0;
   max-width:100%;
@@ -76,11 +91,32 @@ nav li{
     color:white;
     display: inline;
     
-    margin:5px;
+    /*margin:auto;*/
     padding: 10px;
     border-radius: 10px;
     background-image: radial-gradient(60 #fa0085,#000 );
 }
+
+#index_text{
+  color:white;
+  float:left;
+  max-width: 40%;
+  padding:5px 5px;
+  font-size: 1.5rem;
+}
+
+.white_text{
+  color: white;
+}
+
+#photo_roll{
+  display:block;
+  float: right;
+  max-width: 50%;
+  border:2px solid green;
+  margin: 5px 100px 300px;
+}
+
 
 
 
