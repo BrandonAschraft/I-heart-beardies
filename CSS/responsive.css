@@ -1,0 +1,75 @@
+@media (max-width: 1270px) and (min-width: 960px){
+    .Header_Logo{
+        
+    }
+    .tagline{
+        font-size:1.5rem;
+        background: green;
+    }
+    
+}
+
+
+@media (max-width: 480px) and (min-width: 200px){
+  .Header_Logo {
+    max-width: 95%;
+    
+    margin: auto;
+    float: left;
+  }
+  .tagline{
+    clear:right;
+    font-size: 1rem;
+    margin: 0;
+    display: block;
+    background-color: transparent;
+  }
+  
+  .page_list{
+    display:block;  
+  }
+  p {
+    font-size: 1rem;
+    clear: right;
+    min-width: 250px;
+    text-align:center;
+  }
+  #photo_roll{
+      clear: left;
+      float:none;
+      margin: 2px auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

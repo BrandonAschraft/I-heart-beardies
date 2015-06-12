@@ -1,7 +1,7 @@
 
 /********All Call rules**************/
 *{
-    /*border:1px solid blue;*/
+    border:1px solid blue;
     /*background-color:black;*/
     
 }
@@ -49,8 +49,8 @@ body {
   column-count: 2;
   margin:0;
   padding:0;
-  max-height:230px; 
-  min-height:300px;
+  max-height:280px; 
+  min-height:200px;
   max-width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(white, black );
@@ -99,6 +99,7 @@ nav li{
 
 #index_text{
   color:white;
+  clear:right;
   float:left;
   max-width: 40%;
   padding:5px 5px;
@@ -112,11 +113,18 @@ nav li{
 #photo_roll{
   display:block;
   float: right;
+  padding: 15px 10px 0 1px;
   max-width: 50%;
   border:2px solid green;
-  margin: 5px 100px 300px;
+  /*margin: 25px 0 500px 50%;*/
 }
 
+
+.footer{
+  margin:40% 0 0 0;
+  display:block;
+  clear: both;
+}
 
 
 
@@ -141,7 +149,7 @@ form {
 }
 
 .DragonAvailsNote{
-  float:center;
+  float:right;
   margin:10% auto;
   min-width:350px;
   max-width: 50%;
@@ -172,7 +180,6 @@ h1 {
   background: #333;
   color:#f0f0f0;
 }
-
 
 
 
