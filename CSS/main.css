@@ -1,7 +1,7 @@
 
 /********All Call rules**************/
 *{
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     /*background-color:black;*/
     
 }
@@ -41,12 +41,13 @@ a:active {
 
 body {
   background-color: black;
+  margin:0;
 }
 
 
 
 .header {
-  column-count: 2;
+  /*column-count: 2;*/
   margin:0;
   padding:0;
   max-height:280px; 
@@ -58,7 +59,8 @@ body {
 
 
 .tagline {
-  font-size: 2.2rem;
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 2rem;
   color:#fa0085;
   float:right;
   margin:20px 15% 20px 10px;
@@ -69,32 +71,33 @@ body {
 nav {
   /*border:5px solid green;*/
   background-image:radial-gradient(#fa0085,#000);
-  margin: 0 auto;
+  margin: 0;
+  max-width:100%;
 }
 
 .page_list{
-  width: 73%;
+  width: 50%;
   margin: 0 auto;
 }
 
 .navigation{
-  margin:auto;
-  display: none;
-  border-radius: 0;
-  max-width:100%;
+  margin:0;
+/*  display: none;*/
+/*  border-radius: 0;*/
+/*  max-width:100%;*/
   
 }
 
 
 nav li{
     /*float: right;*/
-    color:white;
+    /*color:white;*/
     display: inline;
     
     /*margin:auto;*/
-    padding: 10px;
-    border-radius: 10px;
-    background-image: radial-gradient(60 #fa0085,#000 );
+    padding-right: 20px;
+    /*border-radius: 10px;*/
+    background:none;
 }
 
 #index_text{

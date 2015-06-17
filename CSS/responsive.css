@@ -1,33 +1,112 @@
-@media (max-width: 1270px) and (min-width: 960px){
-    .Header_Logo{
-        
+@media screen and (max-width: 1275px) {
+    *{
+      border: 1px solid green;
     }
+    .Header_Logo{
+     margin: 0;
+     clear:right;
+    }
+    
     .tagline{
         font-size:1.5rem;
-        background: green;
+        margin: 40px 20px 0px 10px;
+        clear:left;
     }
-    
+    .page_list{
+  width: 62%;
+  margin: center;
+} 
+
+/*    .navigation{*/
+/*    margin:0;*/
+/*}*/
 }
 
-
-@media (max-width: 480px) and (min-width: 200px){
-  .Header_Logo {
-    max-width: 95%;
+@media screen and (max-width:970px) {
+  .Header_Logo{
+    max-width:95%;
+    min-width:350px;
+    margin: 0 25% 0 40px;
+    min-height: 250px;
+  }
+  *{
+      border: 1px solid blue;
     
-    margin: auto;
+  }
+  .tagline{
+    font-size:1rem;
+    margin: -25px 0 0 25%;
+    padding: 0;
+    float:left;
+    clear:both;
+  }
+  nav{
+    margin:40px 0 0 0;
+  }
+  .page_list{
+  width: 95%;
+  margin: center;
+  padding-right:15px;
+}
+}
+
+@media screen and (max-width:750px){
+  
+  .header{
+    padding-right:2%;
+    min-height:300px;
+  }
+  
+  .Header_Logo {
+    /*max-width: 95%;*/
+    margin:auto;
+    /*float: left;*/
+  }
+  
+  #photo_roll{
+    float:none;
+    margin:auto;
+  }
+     .page_list{
+  width: 320px;
+  margin: auto;
+  padding-left: 15px;
+}
+
+    *{
+      border:none;
+    }
+    #index_text{
+      float: none;
+      margin:auto;
+      max-width: 80%;
+    }
+  }
+  
+
+@media screen and (max-width: 480px) {
+  .Header_Logo {
+     
+    max-width: 95%;
+    margin: 0;
     float: left;
+  }
+  *{
+      border: 1px solid red;
   }
   .tagline{
     clear:right;
-    font-size: 1rem;
-    margin: 0;
+    font-size: 0.75rem;
+    margin: auto;
     display: block;
     background-color: transparent;
   }
   
-  .page_list{
-    display:block;  
-  }
+  /*.page_list{*/
+  /*  display:block;*/
+  /*  max-width:270px;*/
+  /*  padding: 15px;*/
+  /*}*/
   p {
     font-size: 1rem;
     clear: right;
