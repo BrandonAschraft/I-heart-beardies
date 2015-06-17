@@ -1,7 +1,8 @@
 @media screen and (max-width: 1275px) {
-    *{
-      border: 1px solid green;
-    }
+    /**{*/
+    /*  border: 1px solid green;*/
+    /*}*/
+    
     .Header_Logo{
      margin: 0;
      clear:right;
@@ -13,8 +14,9 @@
         clear:left;
     }
     .page_list{
-  width: 62%;
-  margin: center;
+        text-align:center;
+        width: 75%;
+        margin: center;
 } 
 
 /*    .navigation{*/
@@ -23,16 +25,12 @@
 }
 
 @media screen and (max-width:970px) {
-  .Header_Logo{
-    max-width:95%;
-    min-width:350px;
-    margin: 0 25% 0 40px;
-    min-height: 250px;
-  }
-  *{
-      border: 1px solid blue;
+  
+  /**{*/
+  /*    border: 1px solid blue;*/
     
-  }
+  /*}*/
+  
   .tagline{
     font-size:1rem;
     margin: -25px 0 0 25%;
@@ -45,55 +43,86 @@
   }
   .page_list{
   width: 95%;
-  margin: center;
+  margin: 0;
   padding-right:15px;
 }
 }
 
 @media screen and (max-width:750px){
   
+   /**{*/
+   /*   border: 1px solid orange;*/
+   /* }*/
+  
   .header{
+    text-align: center;
     padding-right:2%;
-    min-height:300px;
   }
   
   .Header_Logo {
-    /*max-width: 95%;*/
     margin:auto;
-    /*float: left;*/
+  }
+  
+  .tagline{
+    text-align: center;
   }
   
   #photo_roll{
     float:none;
     margin:auto;
   }
-     .page_list{
-  width: 320px;
-  margin: auto;
-  padding-left: 15px;
+  .page_list{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-left: 15px;
 }
 
-    *{
-      border:none;
-    }
+   
     #index_text{
       float: none;
       margin:auto;
       max-width: 80%;
     }
+    
+    /**********RESPONSIVE STYLES FOR 'CONTACT'********/
+    .DragonAvailsNote{
+      float: none;
+      margin: auto;
+      max-width: 80%;
+    }
+    .contact_form{
+      float:none;
+      max-width:400px;
+      min-width:150px;
+      /*margin-top:50px;*/
+}
+
+    .noteDiv{
+      margin: auto;
+    }
+    
+    
   }
   
 
 @media screen and (max-width: 480px) {
+  
+  /**{*/
+  /*    border: 1px solid red;*/
+  /*}*/
+  
+  .header{
+    padding-right:2%;
+  }
+  
   .Header_Logo {
      
     max-width: 95%;
     margin: 0;
     float: left;
   }
-  *{
-      border: 1px solid red;
-  }
+  
   .tagline{
     clear:right;
     font-size: 0.75rem;
@@ -102,11 +131,26 @@
     background-color: transparent;
   }
   
-  /*.page_list{*/
-  /*  display:block;*/
-  /*  max-width:270px;*/
-  /*  padding: 15px;*/
-  /*}*/
+  nav {
+    padding:0;
+    margin-top:20%;
+  }
+  
+  .page_list{
+    clear: both;
+    text-align: center;
+    display:block;
+    max-width:270px;
+    /*margin-top:25px;*/
+    padding: 15px;
+  }
+  
+  
+  #index_text{
+      margin:auto;
+      max-width: 100%;
+    }
+  
   p {
     font-size: 1rem;
     clear: right;
