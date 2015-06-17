@@ -6,6 +6,8 @@
     
 }
 
+
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -26,6 +28,11 @@ a:active {
   color: lightcoral;
 }
 
+/*.text_links {*/
+/*  color:white;*/
+/*  text-decoration:underline;*/
+/*}*/
+
 
 
 
@@ -34,52 +41,92 @@ a:active {
 
 body {
   background-color: black;
+  margin:0;
 }
 
 
 
 .header {
-  column-count: 2;
+  /*column-count: 2;*/
   margin:0;
   padding:0;
-  max-height:230px; 
-  min-height:300px;
+  max-height:280px; 
+  min-height:200px;
   max-width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(white, black );
 } 
 
+
 .tagline {
-  font-size: 2.2rem;
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 2rem;
   color:#fa0085;
   float:right;
-  margin:20px 25% 20px 10px;
+  margin:20px 15% 20px 10px;
   padding-top:5%;
+  text-shadow:1px 1px #000;
+ text-transform: uppercase;
 }
 nav {
   /*border:5px solid green;*/
   background-image:radial-gradient(#fa0085,#000);
+  margin: 0;
+  max-width:100%;
+}
+
+.page_list{
+  width: 50%;
+  margin: 0 auto;
 }
 
 .navigation{
-  justify:right;
-  margin:0 auto;
-  display: none;
-  border-radius: 0;
-  max-width:100%;
+  margin:0;
+/*  display: none;*/
+/*  border-radius: 0;*/
+/*  max-width:100%;*/
   
 }
 
 
 nav li{
     /*float: right;*/
-    color:white;
+    /*color:white;*/
     display: inline;
     
-    margin:5px;
-    padding: 10px;
-    border-radius: 10px;
-    background-image: radial-gradient(60 #fa0085,#000 );
+    /*margin:auto;*/
+    padding-right: 20px;
+    /*border-radius: 10px;*/
+    background:none;
+}
+
+#index_text{
+  color:white;
+  clear:right;
+  float:left;
+  max-width: 40%;
+  padding:5px 5px;
+  font-size: 1.5rem;
+}
+
+.white_text{
+  color: white;
+}
+
+#photo_roll{
+  display:block;
+  float: right;
+  padding: 15px 10px 0 1px;
+  max-width: 50%;
+  border:2px solid green;
+  /*margin: 25px 0 500px 50%;*/
+}
+
+
+.footer{
+  margin:40% 0 0 0;
+  display:block;
+  clear: both;
 }
 
 
@@ -105,7 +152,7 @@ form {
 }
 
 .DragonAvailsNote{
-  float:center;
+  float:right;
   margin:10% auto;
   min-width:350px;
   max-width: 50%;
@@ -136,7 +183,6 @@ h1 {
   background: #333;
   color:#f0f0f0;
 }
-
 
 
 
