@@ -125,11 +125,33 @@ nav li{
 
 
 .footer{
-  margin:40% 0 0 0;
-  display:block;
   clear: both;
+  margin:40% 0 0 42%;
+  text-align: center;
+  display:block;
+  /*clear: both;*/
+  /*margin-top: 40%;*/
+  width:270px;
+  border: 1px solid blue;
+}
+/*.footerDiv{*/
+  
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  
+  
+/*  border: 1px solid red;*/
+/*  text-align: center;*/
+  /*display: inline;*/
+/*}*/
+.footText{
+  border: 1px solid green;
+  float:left;
 }
 
+.facebook_img{
+  float: right;
+}
 
 
 /*****CONTACT PAGE STYLES*******************/
