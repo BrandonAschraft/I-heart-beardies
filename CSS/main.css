@@ -154,12 +154,93 @@ nav li{
   margin-left: 55%;
 }
 
-.slidePics {
+.slidePics {                /*********STILL NEEDS TO RESPOND TO SMALLER SCREENS****/
   /*border:1px solid blue;*/
   position: absolute;
   width: 650px;
   height: 500px;
   margin: 0;
+}
+
+
+/****** PET CARE STYLES*************/
+/*.environment {*/
+/*	width: 290px;*/
+/*	float: left;*/
+/*	padding: 5px 15px;*/
+/*}*/
+
+/*.diet {*/
+/*	width: 294px;  Account for margins + border values */
+/*	float: left;*/
+/*	padding: 5px 15px;*/
+/*	margin: 0px 5px 5px 5px;*/
+/*}*/
+
+/*.behavior {*/
+/*	width: 270px;*/
+/*	padding: 5px 15px;*/
+/*	float: left;*/
+/*}*/
+
+/***********************************/
+
+
+
+.environment{
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+  
+.diet{
+  width:30%;
+  float: left;
+  margin: 0 3%;
+ 
+}
+  
+.behavior{
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+}
+
+.care{
+  color: #777;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+.spans {
+  max-width: 100%;
+  max-height: 2rem;
+  display:block;
+  background-image: radial-gradient(#fa0085, transparent);
+  border-radius: 55px 10px;
+  margin: 5px;
+}
+
+.textReveal{
+  line-height: 2rem;
+  width:100%;
+  background: none;
+  border-radius:55px 10px;
+  margin-bottom: 10px;
+}
+
+.textReveal:hover {
+  color: rgba(255, 255, 255, .4);
+}
+
+.caution{
+  text-transform:uppercase;
 }
 
 /*****CONTACT PAGE STYLES*******************/
