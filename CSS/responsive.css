@@ -17,11 +17,14 @@
         text-align:center;
         width: 75%;
         margin: center;
-} 
+    } 
+    .environment,
+    .diet
+    .behavior{
+      margin:0;
+      
+    }
 
-/*    .navigation{*/
-/*    margin:0;*/
-/*}*/
 }
 
 @media screen and (max-width:970px) {
@@ -84,6 +87,17 @@
       margin:auto;
       max-width: 80%;
     }
+    
+    .environment,
+    .diet,
+    .behavior{
+      float:none;
+      margin:0 auto;
+      width: 80%;
+      
+    }
+    
+    
     
     .footer{
       margin: 0px 0px 0px 25%;
@@ -168,6 +182,22 @@
       float:none;
       margin: 2px auto;
   }
+  
+  .sectionHeaders{
+    font-size: 1rem;
+  }
+  
+  .environment,
+    .diet,
+    .behavior{
+      margin:0 auto;
+      width: 98%;
+      
+    }
+    
+    .careText{
+      font-size:0.75rem;
+    }
   
   .footer{
     clear: both;

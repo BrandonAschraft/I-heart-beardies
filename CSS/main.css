@@ -183,10 +183,10 @@ nav li{
 /*	float: left;*/
 /*}*/
 
-/***********************************/
+/************************PETCARE STYLES****************************/
 
 
-
+/*******Sections********/
 .environment{
   width: 30%;
   float: left;
@@ -206,13 +206,15 @@ nav li{
   margin-right: 2%;
 }
 
-.care{
+.sectionHeaders{
   color: #777;
   margin-top: 5%;
   text-align: center;
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+/****Column Data, General *****/
 
 h3 {
   text-align: center;
@@ -222,16 +224,16 @@ h3 {
   max-width: 100%;
   max-height: 2rem;
   display:block;
-  background-image: radial-gradient(#fa0085, transparent);
+  background-image: radial-gradient(#fa0085, transparent 80%);
   border-radius: 55px 10px;
   margin: 5px;
 }
 
 .textReveal{
+  border:none;
   line-height: 2rem;
   width:100%;
   background: none;
-  border-radius:55px 10px;
   margin-bottom: 10px;
 }
 
@@ -239,8 +241,33 @@ h3 {
   color: rgba(255, 255, 255, .4);
 }
 
+
+
+/******* Diet Data*******/
 .caution{
+  color:red;
   text-transform:uppercase;
+}
+
+table{
+  margin-top: 1.5rem;
+}
+
+.rows {
+  background-image: radial-gradient(#777, transparent);
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+#colHead {
+  background-image: radial-gradient(#Fa0085, transparent 80%);
+  border-radius: 20px;
+  text-align: center;
+}
+
+tfoot {
+  font-size: 0.7rem;
 }
 
 /*****CONTACT PAGE STYLES*******************/
