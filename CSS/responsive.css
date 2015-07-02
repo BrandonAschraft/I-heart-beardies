@@ -15,7 +15,7 @@
     }
     .page_list{
         text-align:center;
-        width: 75%;
+        width: 95%;
         margin: center;
     } 
     .environment,
@@ -45,7 +45,8 @@
     margin:40px 0 0 0;
   }
   .page_list{
-  width: 95%;
+  font-size: 0.85rem;
+  width: 100%;
   margin: 0;
   padding-right:15px;
 }
@@ -81,6 +82,9 @@
     padding-left: 15px;
 }
 
+  nav li{
+    font-size:1rem;
+  }
    
     #index_text{
       float: none;
@@ -161,7 +165,11 @@
     display:block;
     max-width:270px;
     /*margin-top:25px;*/
-    padding: 15px;
+    /*padding: 15px;*/
+  }
+  
+  nav li{
+    font-size:1rem;
   }
   
   

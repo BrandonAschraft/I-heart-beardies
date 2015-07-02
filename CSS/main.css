@@ -13,7 +13,7 @@
 a:link {
   color:black;
   text-decoration: none;
-  /*background-color:#fa0085;*/
+  
 }
 
 a:visited {
@@ -116,16 +116,16 @@ nav li{
   margin-top: 4%;
 }
 
-/*.footer{*/
-/*  clear: both;*/
-/*  margin:40% 0 0 42%;*/
+.footer{
+  clear: both;
+  margin:40% 0 0 42%;
 /*  text-align: center;*/
 /*  display:block;*/
   /*clear: both;*/
   /*margin-top: 40%;*/
 /*  width:270px;*/
 /*  border: 1px solid blue;*/
-/*}*/
+}
 /*.footerDiv{*/
   
 /*  text-align: center;*/
