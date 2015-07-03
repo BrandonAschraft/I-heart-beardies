@@ -1,18 +1,19 @@
-$(document).ready(function() {
-  var $pics = "#slideshow div";
-   $($pics).hide();
-   setInterval(function() {
-    $($pics).each(function(index) {
-      $(this).fadeIn(2000).delay(3000).fadeOut(2000);
-         $(".wait").delay(5000); 
-      
-    });
-   },0);
+
+/*********Slideshow***********/
+$(document).ready(function(){
+  $(".slidesDiv img :gt(0)").hide();
+  setInterval(function(){
+    $(".slidesDiv :first-child").fadeOut(2000).next("img").fadeIn(2000).end().appendTo(".slidesDiv");
+  },5000);
 });
 
- 
 
-
+// $(document).ready(function(){
+//   $("#slideshow li").hide();
+//   setInterval(function(){
+//     $("#slideshow :first-child").fadeOut(3000).next("li").fadeIn(3000).end().appendTo("#slideshow");
+//   },7000);
+// });
 
 //********* PETCARE html BUTTONS*******
 

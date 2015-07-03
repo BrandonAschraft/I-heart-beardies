@@ -25,7 +25,7 @@ a:hover {
 }
 
 a:active {
-  color: lightcoral;
+  color: #777;
 }
 
 /*.text_links {*/
@@ -77,7 +77,7 @@ nav {
 
 .page_list{
   text-align:center;
-  width: 65%;
+  width: 68%;
   margin: 0 auto;
 }
 
@@ -111,57 +111,51 @@ nav li{
 }
 
 #index_text{
-  max-width: 50%;
+  float:left;
+  width: 45%;
   font-size: 1.6rem;
-  margin-top: 4%;
+  margin: 3% 0 0 2%;
 }
 
 .footer{
-  clear: both;
-  margin:40% 0 0 42%;
-/*  text-align: center;*/
-/*  display:block;*/
-  /*clear: both;*/
-  /*margin-top: 40%;*/
-/*  width:270px;*/
-/*  border: 1px solid blue;*/
+  clear:both;
+  margin: 10% 0 3%;
 }
-/*.footerDiv{*/
-  
-/*  text-align: center;*/
-/*  display: inline-block;*/
-  
-  
-/*  border: 1px solid red;*/
-/*  text-align: center;*/
-/*  display: inline;*/
-/*}*/
-/*.footText{*/
-/*  border: 1px solid green;*/
-/*  float:left;*/
-/*}*/
 
-/*.facebook_img{*/
-/*  float: right;*/
-/*}*/
+#footerDiv{
+  max-width:300px;
+  margin: auto;
+  padding-top:1%;
+}
+
+.footText{
+  float:left;
+  /*display:inline;*/
+  /*border:1px solid red;*/
+  margin-right:10px;
+  
+}
+.facebook-link{
+  margin:auto;
+}
+
 
 /**********INDEX PIC SLIDESHOW STYLES**************/
 
-
-
-#slideshow {
-  margin-top:4%;
-  margin-left: 55%;
+.slidesDiv{
+  float:right;
+  /*border: 5px solid white;*/
+  width:640px;
+  height:480px;
+  margin-top:2%;
+  margin-right:2%;
+  overflow: hidden;
 }
 
-.slidePics {                /*********STILL NEEDS TO RESPOND TO SMALLER SCREENS****/
-  /*border:1px solid blue;*/
-  position: absolute;
-  width: 650px;
-  height: 500px;
-  margin: 0;
+.slidesDiv img{
+  width:100%;
+  height:100%;
 }
-
 
 /******************FAMILY PHOTOS STYLES********************/
 .familyPic {
@@ -170,32 +164,6 @@ nav li{
 
 
 
-
-
-
-
-
-
-
-/****** PET CARE STYLES*************/
-/*.environment {*/
-/*	width: 290px;*/
-/*	float: left;*/
-/*	padding: 5px 15px;*/
-/*}*/
-
-/*.diet {*/
-/*	width: 294px;  Account for margins + border values */
-/*	float: left;*/
-/*	padding: 5px 15px;*/
-/*	margin: 0px 5px 5px 5px;*/
-/*}*/
-
-/*.behavior {*/
-/*	width: 270px;*/
-/*	padding: 5px 15px;*/
-/*	float: left;*/
-/*}*/
 
 /************************PETCARE STYLES****************************/
 
@@ -257,7 +225,7 @@ h3 {
 
 
 
-/******* Diet Data*******/
+/******* Diet Warning/ Table Data*******/
 .caution{
   color:red;
   text-transform:uppercase;
@@ -284,46 +252,30 @@ tfoot {
   font-size: 0.7rem;
 }
 
-/*****CONTACT PAGE STYLES*******************/
+/*******************CONTACT PAGE STYLES*******************/
 
-.form_title{
+.noteDiv{
+  float: right;
+  max-width: 60%;
+  margin-top:5%;
+  margin-right:2%;
+  
+}
+
+.contact_form{
+  float:right;
+  margin-right: 10%;
+  max-width: 300px;
+}
+
+.form_title {
+  margin: 0 0 30px 0;
+  text-align: center;
   font-size:3rem;
   color:#fa0085;
 }
 
-.contact_form{
-  float:left;
-  margin:3% auto;
-  max-width: 50%;
-}
-
-form {
-  min-width: 300px;
-  margin: 100px auto;
-  padding: 10px 20px;
-  background: #000;
-  border-radius: 10px;
-}
-
-.noteDiv{
-  max-width: 90%;
-  margin:3% 20% 0 55%;
-}
-
-.DragonAvailsNote{
-  /*float:right;*/
-  margin:auto;
-  min-width:200px;
-  /*max-width: 50%;*/
-}
-
-h1 {
-  margin: 0 0 30px 0;
-  text-align: center;
-}
-
 .labels {
-  /*display:inline-block;*/
   margin: auto 0;
   display:block;
   color:white;

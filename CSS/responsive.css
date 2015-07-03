@@ -17,12 +17,30 @@
         text-align:center;
         width: 95%;
         margin: center;
-    } 
+    }
+    
+    .slidesDiv{
+      float:none;
+      margin:2% auto;
+    }
+    
+    #index_text{
+      width:98%;
+      margin: auto 2%;
+    }
+    
+    
+    
+    /************PETCARE*********/
     .environment,
     .diet
     .behavior{
       margin:0;
       
+    }
+    
+    .contact_form{
+      margin-right: 5%;
     }
 
 }
@@ -44,12 +62,30 @@
   nav{
     margin:40px 0 0 0;
   }
+  
+  nav li{
+    padding-right:1%;
+  }
+  
   .page_list{
   font-size: 0.85rem;
   width: 100%;
   margin: 0;
-  padding-right:15px;
-}
+  padding-right:8px;
+  }
+  
+
+  
+  /*******Contact Page*********/
+  .contact_form{
+    float: left;
+    margin-left: 2%;
+    margin-right:0;
+  }
+ .noteDiv{
+   max-width:55%;
+ }
+ 
 }
 
 @media screen and (max-width:750px){
@@ -71,19 +107,21 @@
     text-align: center;
   }
   
-  #photo_roll{
-    float:none;
-    margin:auto;
-  }
+ 
   .page_list{
     text-align: center;
-    width: 400px;
+    width: 98%;
     margin: auto;
-    padding-left: 15px;
+    padding:0;
 }
 
-  nav li{
+  .navigation li{
     font-size:1rem;
+    margin-left:0;
+  }
+  
+  .slidesDiv{
+    display:none;
   }
    
     #index_text{
@@ -91,6 +129,8 @@
       margin:auto;
       max-width: 80%;
     }
+    
+    
     
     .environment,
     .diet,
@@ -104,24 +144,24 @@
     
     
     .footer{
-      margin: 0px 0px 0px 25%;
-      /*text-align:center;*/
+      margin: auto;
     }
     
     /**********RESPONSIVE STYLES FOR 'CONTACT'********/
-    .DragonAvailsNote{
-      float: none;
-      margin: auto;
-      max-width: 80%;
-    }
+/*    .DragonAvailsNote{*/
+/*      float: none;*/
+/*      margin: auto;*/
+/*      max-width: 80%;*/
+/*    }*/
     .contact_form{
       float:none;
-      max-width:400px;
-      min-width:150px;
-      /*margin-top:50px;*/
+      max-width:60%;
+      min-width:250px;
+      margin:auto;
 }
 
     .noteDiv{
+      max-width:95%;
       margin: auto;
     }
     
@@ -172,6 +212,15 @@
     font-size:1rem;
   }
   
+  .footer{
+    clear: both;
+    max-width: 100%;
+    float: left;
+    margin-left:0;
+    display:inline-block;
+  }
+  
+  /**********Index . html********/
   
   #index_text{
       margin:auto;
@@ -191,6 +240,8 @@
       margin: 2px auto;
   }
   
+  /**********PETCARE*******/
+  
   .sectionHeaders{
     font-size: 1rem;
   }
@@ -207,13 +258,7 @@
       font-size:0.75rem;
     }
   
-  .footer{
-    clear: both;
-    max-width: 100%;
-    float: left;
-    margin-left:0;
-    display:inline-block;
-  }
+  
 }
 
 
