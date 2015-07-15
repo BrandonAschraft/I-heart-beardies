@@ -104,10 +104,12 @@ nav li{
     background:none;
 }
 
-
-
 .white_text{
   color: white;
+}
+
+.hidePic{
+  display:none;
 }
 
 #index_text{
@@ -156,6 +158,12 @@ nav li{
   width:100%;
   height:100%;
 }
+
+
+/*****************DRAGON STYLES********************/
+/*#dLabel{*/
+/* display:none; */
+/*}*/
 
 /******************FAMILY PHOTOS STYLES********************/
 .familyPic {

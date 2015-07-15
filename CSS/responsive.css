@@ -33,9 +33,9 @@
     
     /************PETCARE*********/
     .environment,
-    .diet
+    .diet,
     .behavior{
-      margin:0;
+      margin-left:2%;
       
     }
     
@@ -115,9 +115,22 @@
     padding:0;
 }
 
+.navigation{
+  margin-left:-50px;
+  padding:2%;
+}
+
   .navigation li{
     font-size:1rem;
-    margin-left:0;
+  }
+  
+  .hidePic{
+    display: block;
+    width: 94%;
+    margin: 1% auto;
+  }
+  .hidePic img {
+    width:100%;
   }
   
   .slidesDiv{

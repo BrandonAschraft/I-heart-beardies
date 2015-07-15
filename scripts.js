@@ -25,7 +25,7 @@ var hidden= $('.hide');
 
 // 2 show button spans for 'enclosures', 'lighting/Heat', 'Water/Bathing'
             // 2a DO THIS FOR ALL TOPICS IN EACH SECTION
-
+//Button names could go into the SPAN, then the JS could make this an "on click (), append this child" event. It would then be scalable.
 $("#enclosures").append('<button class="textReveal">ENCLOSURES</button>');
 $("#lighting").append('<button class="textReveal">LIGHTING AND HEAT</button>');
 $("#water").append('<button class="textReveal">WATER</button>');
