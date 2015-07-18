@@ -161,20 +161,34 @@ nav li{
 
 
 /*****************DRAGON STYLES********************/
-.th {
-  margin-top:25px;
-  /*border:3px solid red;*/
-  /*max-width: 25%;*/
+
+
+.dragonDiv{
+  margin-top:3%;
 }
 
-.th a:hover{
-  color: #000;
+.dragonImgs li{
+  width:100%;
+}
+
+.dragonImgs li a{
+  margin-left:2%;
 }
 
 .img_text{
   /*border:1px solid green;*/
-  margin-top:25px;
+  width:75%;
 }
+
+.x{
+  float:left;
+}
+    
+.y{
+  float:right;
+}
+
+
 
 /******************FAMILY PHOTOS STYLES********************/
 .familyPic {
@@ -213,6 +227,14 @@ nav li{
   text-align: center;
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+/****Pet Care Section Images****/
+
+.siteImg{
+  width:100%;
+  margin:0;
+  text-align:center;
 }
 
 /****Column Data, General *****/

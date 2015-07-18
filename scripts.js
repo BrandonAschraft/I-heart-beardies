@@ -15,22 +15,6 @@ $(document).ready(function(){
 //   },7000);
 // });
 
-
-//********DRAGON IMAGE MODALS********
-
-// $('a.image-modal').onclick(function() {
-//   var img = $(this).data('img-src');
-//   var revealId = $(this).data('reveal-id');
-//   $('#' + revealId).html('<img src="../resized-dragons/aurora-mama3-2-wLEO-resize-640x430.jpg" alt=""/>').foundation('reveal','open');
-// });
-
-var appendImgToModal = function(event) {
-    $('#image1').appendTo($('#modalDialogPhotoView'));
-    $('#image1').show();
-}
-// Set the function to call when the user clicks the photo
-$('#image1').on('click', appendImgToModal);
-
 //********* PETCARE html BUTTONS*******
 
 // 1 Hide text elements
@@ -51,6 +35,7 @@ $("#bugs").append('<button class="textReveal">FEEDER ANIMALS</button>');
 $("#nutrition").append('<button class="textReveal">NUTRITION INFORMATION</button>');
 $("#notFood").append('<button class="textReveal">FOODS TO AVOID</button>');
 $("#cohabitation").append('<button class="textReveal">COHABITATION</button>');
+$("#brumation").append('<button class="textReveal">BRUMATION</button>');
 // 3 on toggle, show/hide text
 $(".textReveal").click(function(){
     $(this).parent().next().slideToggle();
