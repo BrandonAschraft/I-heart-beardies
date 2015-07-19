@@ -2,9 +2,9 @@
 
 
 @media screen and (max-width: 1275px) {
-    *{
-      border: 1px solid green;
-    }
+    /**{*/
+    /*  border: 1px solid green;*/
+    /*}*/
     
     .Header_Logo{
      margin: 0;
@@ -33,14 +33,15 @@
     }
     
     
-    /************PETCARE*********/
+    /************PETCARE PAGE*********/
     .environment,
     .diet,
     .behavior{
-      margin-left:2%;
-      
+      margin: 0 1%;
     }
     
+  
+  /***********CONTACT PAGE*******/
     .contact_form{
       margin-right: 5%;
     }
@@ -49,10 +50,9 @@
 
 @media screen and (max-width:970px) {
   
-  *{
-      border: 1px solid blue;
-    
-  }
+  /**{*/
+  /*    border: 1px solid blue;*/
+  /*}*/
   
   .tagline{
     font-size:1rem;
@@ -84,6 +84,11 @@
     width:100%;
   }
   
+  /*******Pet Care Page********/
+  .sitePic{
+      width:100%;
+    }
+  
   /*******Contact Page*********/
   .contact_form{
     float: left;
@@ -98,9 +103,9 @@
 
 @media screen and (max-width:750px){
   
-   *{
-      border: 1px solid orange;
-    }
+   /**{*/
+   /*   border: 1px solid orange;*/
+   /* }*/
   
   .header{
     text-align: center;
@@ -116,16 +121,22 @@
   }
   
  
-  .page_list{
-    text-align: center;
-    width: 98%;
-    margin: auto;
-    padding:0;
-}
+/*  .page_list{*/
+/*    text-align: center;*/
+/*    width: 98%;*/
+/*    margin: auto;*/
+/*    padding:0;*/
+/*}*/
 
-.navigation{
-  margin-left:-50px;
-  padding:2%;
+.page_list li{
+  display:none;
+}
+nav{
+ background: transparent;
+}
+.mySelect{
+  display:block;
+  margin:auto;
 }
 
   .navigation li{
@@ -151,18 +162,18 @@
       max-width: 80%;
     }
     
-    
-    
+    /******Pet Care Page******/
     .environment,
     .diet,
     .behavior{
       float:none;
       margin:0 auto;
       width: 80%;
-      
     }
     
-    
+    .sitePic{
+      width: 200px;
+    }
     
     .footer{
       margin: auto;
@@ -192,9 +203,9 @@
 
 @media screen and (max-width: 480px) {
   
-  *{
-      border: 1px solid red;
-  }
+  /**{*/
+  /*    border: 1px solid red;*/
+  /*}*/
   
   .header{
     padding-right:2%;
@@ -220,13 +231,11 @@
     margin-top:20%;
   }
   
-  .page_list{
-    clear: both;
-    text-align: center;
+  .page_list ul{
+    display:none;
+  }
+  .page_list select{
     display:block;
-    max-width:270px;
-    /*margin-top:25px;*/
-    /*padding: 15px;*/
   }
   
   nav li{
@@ -276,7 +285,7 @@
     }
     
     .careText{
-      font-size:0.75rem;
+      font-size:0.95rem;
     }
   
   

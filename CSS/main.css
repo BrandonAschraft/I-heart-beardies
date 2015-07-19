@@ -81,6 +81,21 @@ nav {
   margin: 0 auto;
 }
 
+.mySelect{
+  display:none;
+  background-image:radial-gradient(#fa0085,45%, #000);
+  width: 98%;
+  text-align:center;
+}
+
+.myOption{
+background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
+text-align:center;
+  padding: 5px;
+  border:none;
+  color: #000;
+}
+
 .navigation{
   margin:0;
 /*  display: none;*/
