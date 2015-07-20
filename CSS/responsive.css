@@ -2,9 +2,9 @@
 
 
 @media screen and (max-width: 1275px) {
-    /**{*/
-    /*  border: 1px solid green;*/
-    /*}*/
+    *{
+      border: 1px solid green;
+    }
     
     .Header_Logo{
      margin: 0;
@@ -40,6 +40,13 @@
       margin: 0 1%;
     }
     
+    /****Information Page********/
+    #rowDiv{
+      float:right;
+      width:75%;
+      margin-right:1rem;
+    }
+    
   
   /***********CONTACT PAGE*******/
     .contact_form{
@@ -50,9 +57,9 @@
 
 @media screen and (max-width:970px) {
   
-  /**{*/
-  /*    border: 1px solid blue;*/
-  /*}*/
+  *{
+      border: 1px solid blue;
+  }
   
   .tagline{
     font-size:1rem;
@@ -88,6 +95,36 @@
   .sitePic{
       width:100%;
     }
+    
+  /****Information Page********/
+  #tabDiv{
+    width:100%;
+    text-align:center;
+  }
+  
+  #infoTabs {
+    float:none;
+    display:inline;
+    
+  }
+  #infoTabs li{
+    display:inline;
+  }
+  
+  #infoTabs .tab-title > a{
+    padding:0.5rem 1rem;
+  }
+  
+  #rowDiv{
+    float:none;
+    width:96%;
+    margin:0 auto;
+  }
+  
+  .content h2{
+    font-size:1.6rem;
+    text-align:center;
+  }
   
   /*******Contact Page*********/
   .contact_form{
@@ -103,9 +140,9 @@
 
 @media screen and (max-width:750px){
   
-   /**{*/
-   /*   border: 1px solid orange;*/
-   /* }*/
+   *{
+      border: 1px solid orange;
+    }
   
   .header{
     text-align: center;
@@ -179,6 +216,12 @@ nav{
       margin: auto;
     }
     
+    /*******Information Page********/
+    #infoTabs .tab-title > a{
+      font-size:0.84rem;
+      padding:0.5rem;
+  }
+    
     /**********RESPONSIVE STYLES FOR 'CONTACT'********/
 /*    .DragonAvailsNote{*/
 /*      float: none;*/
@@ -203,9 +246,9 @@ nav{
 
 @media screen and (max-width: 480px) {
   
-  /**{*/
-  /*    border: 1px solid red;*/
-  /*}*/
+  *{
+      border: 1px solid red;
+  }
   
   .header{
     padding-right:2%;
@@ -287,7 +330,14 @@ nav{
     .careText{
       font-size:0.95rem;
     }
-  
+    
+/******Information Page******/
+  #infoTabs .tab-title > a{
+    width:200px;
+    margin:0 3%;
+    font-size:0.9rem;
+    padding: 1rem;
+  }
   
 }
 

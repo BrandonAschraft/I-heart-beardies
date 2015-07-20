@@ -98,29 +98,28 @@ text-align:center;
 
 .navigation{
   margin:0;
-/*  display: none;*/
-/*  border-radius: 0;*/
-/*  max-width:100%;*/
-  
 }
 
 
 
 
 nav li{
-  
-    /*float: right;*/
-    /*color:white;*/
-    display: inline;
-    
-    /*margin:auto;*/
-    padding-right: 20px;
-    /*border-radius: 10px;*/
-    background:none;
+  display: inline;
+  padding-right: 20px;
+  background:none;
 }
 
 .white_text{
   color: white;
+}
+
+.grey_text{
+  color: #777;
+}
+
+
+.topDiv{   /***Not to be confused with #here div ()aka the target***/
+  text-align:center;
 }
 
 .hidePic{
@@ -306,6 +305,66 @@ table{
 
 tfoot {
   font-size: 0.7rem;
+}
+
+/*******************INFORMATION PAGE STYLES***************************/
+
+/******TABS***********/
+#infoTabs{
+  max-width:225px;
+  margin-top:2%;
+  margin-left:3%;
+}
+
+#infoTabs a{
+ padding:0 100%;
+}
+
+#infoTabs .tab-title > a {
+      display: inline-block;
+      background-color: #000;
+      color: #Fa0085;
+      /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+      font-size: 1rem;
+      padding: 1rem 2rem;
+}
+
+#infoTabs .tab-title.active a {
+      background-image: radial-gradient(#Fa0085, transparent 80%);
+      color: #777; }
+
+/********Content********/
+#rowDiv{
+  width: 800px;
+}
+      
+.content h3{
+  text-align:left;
+  font-size:1.5rem;
+}
+
+.brdTable{
+  margin:0 auto;
+  width:600px;
+}
+.brdTable th{
+  font-size:0.65rem;
+  font-weight:bold;
+}
+
+.brdTable td{
+  font-size:0.65rem;
+}
+
+.geneTable{
+  margin:0 auto 1.25rem;
+}
+
+.geneTable tr{
+  color:white;
+  width:100%;
+  background: black;
+  border:1px solid #F00;
 }
 
 /*******************CONTACT PAGE STYLES*******************/
