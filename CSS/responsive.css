@@ -7,7 +7,7 @@
     }
     
     .Header_Logo{
-     margin: 0;
+     /*margin: 0;*/
      clear:right;
     }
     
@@ -16,10 +16,16 @@
         margin: 40px 20px 0px 10px;
         clear:left;
     }
+    
+    nav li{
+ 
+  padding-right: 0.95rem;
+ 
+}
     .page_list{
-        text-align:center;
-        width: 95%;
-        margin: center;
+        font-size:1.15rem;
+        width: 100%;
+        margin: 0 auto;
     }
     
     .slidesDiv{
@@ -40,6 +46,11 @@
       margin: 0 1%;
     }
     
+    .textReveal{
+      font-size:0.87rem;
+      width:100%;
+    }
+    
     /****Information Page********/
     #rowDiv{
       float:right;
@@ -47,18 +58,16 @@
       margin-right:1rem;
     }
     
-  
-  /***********CONTACT PAGE*******/
-    .contact_form{
-      margin-right: 5%;
-    }
-
 }
 
 @media screen and (max-width:970px) {
   
   *{
       border: 1px solid blue;
+  }
+  
+  .Header_Logo{
+    /*margin-left:0;*/
   }
   
   .tagline{
@@ -82,6 +91,18 @@
   margin: 0;
   padding-right:8px;
   }
+  
+  
+  .page_list li{
+  display:none;
+}
+nav{
+ background: transparent;
+}
+.mySelect{
+  display:block;
+  margin:auto;
+}
   
 /*******Dragons Page*********/
   .dragonImgs li{
@@ -128,12 +149,13 @@
   
   /*******Contact Page*********/
   .contact_form{
-    float: left;
-    margin-left: 2%;
-    margin-right:0;
+    width:60%;
+    /*float: left;*/
+    /*margin-left: 2%;*/
+    /*margin-right:0;*/
   }
  .noteDiv{
-   max-width:55%;
+   width:88%;
  }
  
 }
@@ -165,19 +187,10 @@
 /*    padding:0;*/
 /*}*/
 
-.page_list li{
-  display:none;
-}
-nav{
- background: transparent;
-}
-.mySelect{
-  display:block;
-  margin:auto;
-}
+
 
   .navigation li{
-    font-size:1rem;
+    font-size:1.25rem;
   }
   
   .hidePic{
@@ -208,6 +221,10 @@ nav{
       width: 80%;
     }
     
+    .textReveal{
+  font-size:1.3rem;
+    }
+    
     .sitePic{
       width: 200px;
     }
@@ -230,13 +247,13 @@ nav{
 /*    }*/
     .contact_form{
       float:none;
-      max-width:60%;
+      width:90%;
       min-width:250px;
       margin:auto;
 }
 
     .noteDiv{
-      max-width:95%;
+      width:95%;
       margin: auto;
     }
     
