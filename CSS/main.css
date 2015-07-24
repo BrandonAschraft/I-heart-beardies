@@ -91,8 +91,10 @@ nav {
 .mySelect{
   display:none;
   border:none;
-  /*background-image:radial-gradient(#fa0085,45%, #000 85%);*/
-  width: 98%;
+  -moz-appearance: none !important;
+  background-image: url(../site-images/downArrow.png), radial-gradient(#fa0085 45%, #000 85%);
+  background-repeat:no-repeat;
+  width: 100%;
   text-align:center;
 }
 
@@ -135,6 +137,10 @@ nav li{
 
 .topDiv{   /***Not to be confused with #here div ()aka the target***/
   text-align:center;
+}
+
+.hideLang{
+  visibility: hidden;
 }
 
 .hidePic{
@@ -194,6 +200,10 @@ nav li{
 
 .dragonDiv{
   margin-top:3%;
+}
+
+.Note{
+  margin: 0 10% 10%;
 }
 
 .dragonImgs li{

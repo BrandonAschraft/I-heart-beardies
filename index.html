@@ -30,23 +30,12 @@
 		</nav>
 		
 
-	<form id="langs" action="http://www.google.com/translate" >
-		<script language="JavaScript">
-		<!-- 
-		// document.write ("<input name=u value="+location.href+" type=hidden>") 
-		// --> 
-		</script>
-		<!--<input name="hl" value="en" type="hidden">-->
-		<!--<input name="ie" value="UTF8" type="hidden">-->
-		<!--<input name="langpair" value="" type="hidden">-->
-		<input name="langpair" value="en|fr" title="French" src= "http://photos1.blogger.com/img/43/1633/320/13539949_e76af75976.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-		<input name="langpair" value="en|de" title="German" src= "http://photos1.blogger.com/img/43/1633/320/13539933_041ca1eda2.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-		<input name="langpair" value="en|it" title="Italian" src= "http://photos1.blogger.com/img/43/1633/320/13539953_0384ccecf9.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-		<input name="langpair" value="en|es" title="Spanish" src= "http://photos1.blogger.com/img/43/1633/320/13539946_2fabed0dbf.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-		<input name="langpair" value="en|ja" title="Japanese" src= "http://photos1.blogger.com/img/43/1633/320/13539955_925e6683c8.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-		<input name="langpair" value="en|zh-CN" title="Chinese Simplified" src= "http://photos1.blogger.com/img/43/1633/320/14324441_5ca5ce3423.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30">
-	</form>
-
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
 		<div class="hidePic">
 			<img src="site-images/3resize640-480.jpg"> 
 		</div>
@@ -83,7 +72,7 @@
 
 <footer class= "footer">
 		<div id="footerDiv">
-			<a href="https://www.facebook.com/iheartbeardeddragons" class="facebook-link"><img class= "facebook_img" src="site-images/facebook-icon-resize-4040.jpg" alt= "Facebook icon"></a>
+			<a href="https://www.facebook.com/iheartbeardeddragons" class="facebook-link"><img class= "facebook_img" src="site-images/facebook.p" alt= "Facebook icon"></a>
 			<p class="footText">FOLLOW US ON FACEBOOK!</p>
 		</div>
 	</footer>
