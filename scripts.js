@@ -17,25 +17,6 @@ $(".myOption").click(function(){
 window.location = $select.val();
 });
 
-/*****************Dropdown for Google Translate flags**********/
-
-// var $langSelect=$('<select class="langSelect"></select>');
-// $($langSelect).text("Select Language");
-// $("#langs").append($langSelect);
-// $("#langs input").each(function(){
-//   var $input= $(this);
-//   var $option= $('<option class="langOption"></option>');
-//   // $input.type("hidden").hide();
-// $option.append($input);
-//   $langSelect.append($option);
-// });
-
-// $(".langOption").click(function(){
-// window.location= (".langOption input").onclick();
-// });
-
-
-
 
 /*********Slideshow***********/
 $(document).ready(function(){
@@ -45,19 +26,10 @@ $(document).ready(function(){
   },5000);
 });
 
-
-// $(document).ready(function(){
-//   $("#slideshow li").hide();
-//   setInterval(function(){
-//     $("#slideshow :first-child").fadeOut(3000).next("li").fadeIn(3000).end().appendTo("#slideshow");
-//   },7000);
-// });
-
 //********* PETCARE html BUTTONS*******
 
 // 1 Hide text elements
 var hidden= $('.hide');
-
 hidden.hide();
 
 $(".textReveal").click(function(){
