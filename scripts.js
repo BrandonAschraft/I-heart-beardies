@@ -1,4 +1,4 @@
-/********Dropdown for Small screens****/
+/********Dropdown for Medium/Small screens****/
 var $select=$('<select class="mySelect"></select>');
 
 $(".page_list").append($select);

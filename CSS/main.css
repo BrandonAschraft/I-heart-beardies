@@ -235,12 +235,16 @@ nav li{
 }
 
 /******************FAMILY PHOTOS STYLES********************/
-.familyPic {
-  background: transparent;
+.famPicDiv{
+  margin:0 auto 4%;
+  width:40%;
 }
 
-
-
+.familyPic {
+  margin:0 10%;
+  background: transparent;
+  width:80%;
+}
 
 /************************PETCARE STYLES****************************/
 
