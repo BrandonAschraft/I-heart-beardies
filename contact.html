@@ -11,7 +11,12 @@
 </head>
 <body class ="body">
 	<HEADER class= "header" >
-		
+		<div id="google_translate_element"></div>
+		<script type="text/javascript">
+		function googleTranslateElementInit() {
+  		new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 		<img class= "Header_Logo" src="image-files/Logo2ndRun.png" alt= "I Heart Beardies">
 		<span class="tagline">Where Passion breeds Quality</span>
 	</HEADER>	
@@ -27,16 +32,12 @@
 					<li class="selected"> <a href="contact.html">CONTACT</a></li>
 				</ul>			
 			</div>
-		</nav>	
-	<div id="google_translate_element" class="hideLang"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	
-	
+		</nav>
 	   <div class="noteDiv">
 	    <p class="dragonAvailsNote white_text">Thanks for stopping by! Please leave any questions you have regarding our Beardie availability here. All questions regarding the health and well-being of your Beardie are welcome as well, regardless of its origin. If your Beardie has an immediate medical emergency, please contact your family vetrinarian. </p>
+	    <span style="color: #Fa0085; font-size: 1.25rem">Disclaimers:</span>
+	    <p class="grey_text" style="font-size: 1rem;">We do not guarantee to know the gender of any Bearded Dragon younger than 8 weeks old, since they are not developed enough to make this evaluation.</p>
+	    <p class="grey_text" style="font-size: 1rem;">For the health and well-being of our Beardies, <span style="color: #Fa0085">I Heart Beardies</span> reserves the right to refuse service to anyone for any reasons relating to Bearded Dragon health and safety.</p>
 	</div>
 	    
      
@@ -62,8 +63,8 @@ function googleTranslateElementInit() {
 	<script src="scripts.js"></script>
 <footer class= "footer">
 		<div id="footerDiv">
-			<a href="https://www.facebook.com/iheartbeardeddragons" class="facebook-link"><img class= "facebook_img" src="site-images/facebook.png" alt= "Facebook icon"></a>
-			<p class="footText">FOLLOW US ON FACEBOOK!</p>
+			<a href="https://www.facebook.com/iheartbeardeddragons" class="footText" style="color:white;">FOLLOW US ON FACEBOOK!</a>
+				<a href="https://www.facebook.com/iheartbeardeddragons" class="facebook-link"><img class= "facebook_img" src="site-images/facebook.png" alt= "Facebook icon"></a>
 		</div>
 	</footer>
 	

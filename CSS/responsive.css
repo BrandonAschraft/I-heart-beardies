@@ -13,8 +13,8 @@
     
     .tagline{
         font-size:1.5rem;
-        margin: 40px 20px 0px 10px;
-        clear:left;
+        clear:both;
+        margin-left: -15%;
     }
     
     nav li{
@@ -110,6 +110,7 @@ nav{
   }
   .img_text{
     width:100%;
+    float:none;
   }
   
   /*******Pet Care Page********/
@@ -271,18 +272,21 @@ nav{
     padding-right:2%;
   }
   
+  #google_translate_element{
+  display:none;
+}
+  
   .Header_Logo {
-     
     max-width: 95%;
     margin: 0;
     float: left;
   }
   
   .tagline{
-    clear:right;
     font-size: 0.75rem;
     margin: auto;
     display: block;
+    width:100%;
     background-color: transparent;
   }
   

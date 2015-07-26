@@ -55,7 +55,11 @@ body {
   max-width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(white, black);
-} 
+}
+
+#google_translate_element{
+  float:right;
+}
 
 .Header_Logo{
   /*border: 10px solid red;*/
@@ -65,11 +69,11 @@ body {
 
 
 .tagline {
-  font-family: "Allura", cursive;
+  font-family: "Libre Baskerville", cursive;
   font-size: 2rem;
   color:#fa0085;
   float:right;
-  margin:20px 15% 20px 10px;
+  /*margin:;*/
   padding-top:5%;
   text-shadow:1px 1px #000;
  text-transform: uppercase;
@@ -130,7 +134,7 @@ nav li{
 
 .grey_text{
   font-family:"Tinos", sans-serif;
-  font-size:1.3rem;
+  font-size:1.25rem;
   color: #777;
 }
 
@@ -155,12 +159,14 @@ nav li{
 }
 
 .footer{
+  height:65px;
   clear:both;
-  margin: 10% 0 3%;
+  margin: 25px 0 3%;
 }
 
 #footerDiv{
-  max-width:300px;
+  height:100%;
+  width:300px;
   margin: auto;
   padding-top:1%;
 }
@@ -169,11 +175,13 @@ nav li{
   size:1rem;
   float:left;
   color:white;
+  margin-top:0.5rem;
   margin-right:10px;
   
 }
 .facebook-link{
-  margin:auto;
+  clear:both;
+  /*float:left;*/
 }
 
 
@@ -380,6 +388,7 @@ tfoot {
 }
 
 .brdTable{
+  color: #000;
   margin:0 auto;
   width:600px;
 }
