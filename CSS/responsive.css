@@ -13,8 +13,8 @@
     
     .tagline{
         font-size:1.5rem;
-        margin: 40px 20px 0px 10px;
-        clear:left;
+        margin: 40px 30px 0px -150px;
+        clear:right;
     }
     
     nav li{
@@ -270,6 +270,10 @@ nav{
   .header{
     padding-right:2%;
   }
+  
+  #google_translate_element{
+  display:none;
+}
   
   .Header_Logo {
      

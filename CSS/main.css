@@ -57,6 +57,10 @@ body {
   background-image: linear-gradient(white, black);
 } 
 
+#google_translate_element{
+  float:right;
+}
+
 .Header_Logo{
   /*border: 10px solid red;*/
   margin-left:10%;
@@ -68,12 +72,14 @@ body {
   font-family: "Allura", cursive;
   font-size: 2rem;
   color:#fa0085;
+  clear:both;
   float:right;
-  margin:20px 15% 20px 10px;
+  margin: 0 5% 0 -100px;
   padding-top:5%;
   text-shadow:1px 1px #000;
  text-transform: uppercase;
 }
+
 nav {
   /*border:5px solid green;*/
   background-image:radial-gradient(#fa0085,#000);
@@ -130,17 +136,13 @@ nav li{
 
 .grey_text{
   font-family:"Tinos", sans-serif;
-  font-size:1.3rem;
+  font-size:1.25rem;
   color: #777;
 }
 
 
 .topDiv{   /***Not to be confused with #here div ()aka the target***/
   text-align:center;
-}
-
-.hideLang{
-  visibility: hidden;
 }
 
 .hidePic{
@@ -156,7 +158,7 @@ nav li{
 
 .footer{
   clear:both;
-  margin: 10% 0 3%;
+  margin: 2rem 0 3%;
 }
 
 #footerDiv{
@@ -404,6 +406,10 @@ tfoot {
 .noteDiv{
   width: 60%;
   margin: 5% auto 0;
+}
+
+.disclaimer{
+  font-size: 1rem;
 }
 
 .contact_form{
