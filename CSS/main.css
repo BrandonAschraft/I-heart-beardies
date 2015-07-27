@@ -237,6 +237,11 @@ nav li{
 }
 
 /******************FAMILY PHOTOS STYLES********************/
+.famPicDiv{
+  width:40%;
+  margin:auto;
+}
+
 .familyPic {
   background: transparent;
 }
