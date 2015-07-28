@@ -2,9 +2,9 @@
 
 
 @media screen and (max-width: 1275px) {
-    *{
-      border: 1px solid green;
-    }
+    /**{*/
+    /*  border: 1px solid green;*/
+    /*}*/
     
     .Header_Logo{
      /*margin: 0;*/
@@ -58,9 +58,9 @@
 }
 
 @media screen and (max-width:970px) {
-  *{
-      border: 1px solid blue;
-  }
+  /**{*/
+  /*    border: 1px solid blue;*/
+  /*}*/
   
   .tagline{
     font-size:1rem;
@@ -99,10 +99,24 @@
   }
   
 /*******Dragons Page*********/
+  .borderDiv{
+    display:none;
+  }
   .dragonImgs li{
     text-align:center;
+    margin-bottom:3%;
   }
   .img_text{
+    width:100%;
+  }
+  
+  /*******Breeder Gallery Page******/
+  
+  .famPicDiv{
+    width:50%;
+  }
+  
+  .familyPic {
     width:100%;
   }
   
@@ -154,9 +168,9 @@
 
 @media screen and (max-width:750px){
   
-   *{
-      border: 1px solid orange;
-    }
+   /**{*/
+   /*   border: 1px solid orange;*/
+   /* }*/
   
   .header{
     text-align: center;
@@ -193,6 +207,12 @@
     margin:auto;
     max-width: 80%;
   }
+  
+  /*********Breeder Gallery Page******/
+  .famPicDiv{
+    width:70%;
+    font-size: 1.2rem;
+  }
     
   /******Pet Care Page******/
   .environment,
@@ -221,6 +241,12 @@
     padding:0.5rem;
   }
   
+  .brdTable,
+  .geneTable{
+    font-size: 1rem;
+    width:100%;
+  }
+  
   /**********RESPONSIVE STYLES FOR 'CONTACT'********/
   .contact_form{
     float:none;
@@ -237,9 +263,9 @@
 
 @media screen and (max-width: 480px) {
   
-  *{
-      border: 1px solid red;
-  }
+  /**{*/
+  /*    border: 1px solid red;*/
+  /*}*/
   
   .header{
     padding-right:2%;
