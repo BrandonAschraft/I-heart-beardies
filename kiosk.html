@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='http://fonts.googleapis.com/css?family=Tinos:400,400italic|Allura' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic|Tinos:400,400italic' rel='stylesheet' type='text/css'>
 	<Link rel="stylesheet" href="CSS/main.css">
 	<Link rel="stylesheet" href="CSS/responsive.css">
 	<title>I Heart Beardies</title>
@@ -31,7 +31,107 @@
 			</ul>			
 		</div>
 	</nav>
-		
+	<form id="payForm">
+		<section id="inventory">
+			<h3 class="white_text">HARNESSES</h3>
+			<ul class="harnessPics">
+				<img src="site-images/harness1.jpg">
+				<img src="site-images/harness2.jpg">
+				<img src="site-images/harness3.jpg">
+				<img src="site-images/harness4.jpg">
+			</ul>
+			<ul class="harnessList">
+				<li>
+					<h4 class="white_text">SMALL HARNESS $5.00</h4>
+					<select class="colorOption" onchange="this.style.color = this.options[this.selectedIndex].style.color;">
+						<option disabled="disabled" selected="selected" style="color: #aaa">SELECT COLOR</option>
+						<option style="color:red;">RED</option>
+						<option style="color:yellow;">YELLOW</option>
+						<option style="color:green;">GREEN</option>
+						<option style="color:white;">BLACK</option>
+						<option style="color:teal;">TEAL</option>
+						<option style="color:pink;">PINK</option>
+						<option style="color:white;">WHITE</option>
+						<option style="color:red;">RED SPARKLE</option>
+						<option style="color: #777;">SILVER SPARKLE</option>
+					</select>
+					<button class="addButton" value="5.00">ADD TO CART</button>
+				</li>
+				<li>
+					<h4 class="white_text">MEDIUM HARNESS $7.00</h4>
+					<select class="colorOption" onchange="this.style.color = this.options[this.selectedIndex].style.color;">
+						<option disabled="disabled" selected="selected" style="color: #aaa">SELECT COLOR</option>
+						<option style="color:red;">RED</option>
+						<option style="color:yellow;">YELLOW</option>
+						<option style="color:green;">GREEN</option>
+						<option style="color:white;">BLACK</option>
+						<option style="color:teal;">TEAL</option>
+						<option style="color:pink;">PINK</option>
+						<option style="color:white;">WHITE</option>
+						<option style="color:red;">RED SPARKLE</option>
+						<option style="color: #777;">SILVER SPARKLE</option>
+					</select>
+					<button class="addButton" value="7.00">ADD TO CART</button>
+
+				</li>
+				<li>
+					<h4 class="white_text">LARGE HARNESS $9.00</h4>
+					<select class="colorOption" onchange="this.style.color = this.options[this.selectedIndex].style.color;">
+						<option disabled="disabled" selected="selected" style="color: #aaa">SELECT COLOR</option>
+						<option style="color:red;">RED</option>
+						<option style="color:yellow;">YELLOW</option>
+						<option style="color:green;">GREEN</option>
+						<option style="color:white;">BLACK</option>
+						<option style="color:teal;">TEAL</option>
+						<option style="color:pink;">PINK</option>
+						<option style="color:white;">WHITE</option>
+						<option style="color:red;">RED SPARKLE</option>
+						<option style="color: #777;">SILVER SPARKLE</option>
+					</select>
+					<button class="addButton" value="9.00">ADD TO CART</button>
+				</li>
+				<li>
+					<h4 class="white_text">EXTRA LARGE HARNESS $11.00</h4>
+					<select class="colorOption" onchange="this.style.color = this.options[this.selectedIndex].style.color;">
+						<option disabled="disabled" selected="selected" style="color: #aaa">SELECT COLOR</option>
+						<option style="color:red;">RED</option>
+						<option style="color:yellow;">YELLOW</option>
+						<option style="color:green;">GREEN</option>
+						<option style="color:white;">BLACK</option>
+						<option style="color:teal;">TEAL</option>
+						<option style="color:pink;">PINK</option>
+						<option style="color:white;">WHITE</option>
+						<option style="color:red;">RED SPARKLE</option>
+						<option style="color: #777;">SILVER SPARKLE</option>
+					</select>
+					<button class="addButton">ADD TO CART</button>
+				</li>
+			</ul>
+			<div class="borderDiv"></div>
+			<div class="waterDiv">
+				<h3 class="white_text">WATER CRYSTALS</h3>
+				<div style="border: 1px solid white; width:150px; height:200px; float:left; margin-left:10px; margin-top: -15px;"><span class="white_text">Water Crystal Image</span></div>
+				<ul class= "waterList">
+					<li><input type="radio" id="qoz" value="1.00" /><label for="qoz" class="white_text">1/4 oz.<br/> $1.00</label></li>
+					<li><input type="radio"  id="1oz" value="3.00" /><label for="1oz" class="white_text"> 1 oz. <br/>$3.00</label></li>
+					<li><input type="radio" id="3oz" value="5.00" /><label for="3oz" class="white_text"> 3 oz.<br/>$5.00</label></li>
+				</ul>
+				<button class="addButton waterButton" value="">Add to Cart</button>
+			</div>
+			<div class="borderDiv"></div>
+		</section>
+		<section class="cart">
+			<h3 class="white_text">CHECKOUT</h3>
+			<div style=" border:1px solid #Fa0085; width: 40%; height:300px; text-align:center;">
+				<h4 class="grey_text">SHOPING CART</h4>
+			</div>
+			<div style="width: 200px; height:1.5rem; border:1px solid green; margin-top: 1rem;"><span class=grey_text>TOTAL $</span>
+			</div>
+			<div style=" border:1px solid #Fa0085; width: 40%; height:300px; text-align:center; clear:left; margin: -345px 0 0 450px;">
+				<h4 class="grey_text">PAYMENT METHODS</h4>
+			</div>
+		</section>
+	</form>
 		
 		
 		

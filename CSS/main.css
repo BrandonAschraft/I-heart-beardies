@@ -5,9 +5,6 @@
     /*background-color:black;*/
     
 }
-
-
-
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -29,14 +26,6 @@ a:active {
   color: #777;
 }
 
-/*.text_links {*/
-/*  color:white;*/
-/*  text-decoration:underline;*/
-/*}*/
-
-
-
-
 
 /********Styles started w/ index.html*********/
 
@@ -44,8 +33,6 @@ body {
   background-color: black;
   margin:0;
 }
-
-
 
 .header {
   margin:0;
@@ -67,9 +54,8 @@ body {
   height:100%;
 }
 
-
 .tagline {
-  font-family: "Allura", cursive;
+  font-family: "Libre Baskerville", cursive;
   font-size: 2rem;
   color:#fa0085;
   clear:both;
@@ -105,8 +91,8 @@ nav {
 }
 
 .myOption{
-background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
-text-align:center;
+  background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
+  text-align:center;
   padding:8px 0;
   border:none;
   color: #000;
@@ -120,7 +106,6 @@ text-align:center;
   width: 15%;
   height: 2rem;
 }
-
 
 nav li{
   display: inline;
@@ -138,11 +123,6 @@ nav li{
   font-family:"Tinos", sans-serif;
   font-size:1.25rem;
   color: #777;
-}
-
-
-.topDiv{   /***Not to be confused with #here div ()aka the target***/
-  text-align:center;
 }
 
 .hidePic{
@@ -196,9 +176,7 @@ nav li{
   height:100%;
 }
 
-
 /*****************DRAGON STYLES********************/
-
 
 .dragonDiv{
   margin-top:3%;
@@ -236,21 +214,83 @@ nav li{
   border-bottom: 1px solid #Fa0085;
 }
 
+/*******************KIOSK STYLES**************************/
+#payForm{
+  padding:0;
+  /*border: 1px solid blue;*/
+  width:60%;
+  margin: 0 auto;
+}
+
+#inventory{
+  padding:0;
+  display:inline;
+}
+
+.harnessPics img{
+  /*width:100%;*/
+  margin-left:9%;
+}
+
+.colorOption{
+  background-color: #000;
+}
+
+.harnessList{
+  padding:0;
+  /*border:1px solid green;*/
+  width: 100%;
+  /*height: 9rem;*/
+}
+
+.harnessList li{
+  padding:0;
+  width:50%;
+  /*border: 1px solid orange;*/
+  display:inline;
+}
+
+.waterDiv{
+    /*border:1px solid white;*/
+    height: 18rem;
+}
+
+.waterList{
+  display:block;
+  float:left;
+}
+
+
+.waterList li{
+  display:inline-block;
+  margin-left: 4rem;
+}
+
+.waterList input{
+  display:block;
+}
+
+.waterButton{
+  margin: 3rem 0 0 4rem;
+}
+
+.addButton{
+  margin-left: 6rem;
+}
+
 /******************FAMILY PHOTOS STYLES********************/
 .famPicDiv{
   width:40%;
-  margin:auto;
+  margin: 3% auto;
+  text-align:center;
 }
 
 .familyPic {
   background: transparent;
+  margin:0 auto;
 }
 
-
-
-
 /************************PETCARE STYLES****************************/
-
 
 /*******Sections********/
 .environment{
@@ -263,7 +303,6 @@ nav li{
   width:30%;
   float: left;
   margin: 0 3%;
- 
 }
   
 .behavior{
@@ -382,6 +421,10 @@ tfoot {
   font-size:1.5rem;
 }
 
+.topDiv{   /***Not to be confused with #here div ()aka the target***/
+  text-align:center;
+}
+
 .brdTable{
   margin:0 auto;
   width:600px;
@@ -446,14 +489,3 @@ tfoot {
   background: #333;
   color:#f0f0f0;
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -1,4 +1,4 @@
-/********Dropdown for Small screens****/
+/********Nav Dropdown for Small/Medium screens****/
 var $select=$('<select class="mySelect"></select>');
 
 $(".page_list").append($select);
@@ -25,6 +25,20 @@ $(document).ready(function(){
     $(".slidesDiv :first-child").fadeOut(2000).next("img").fadeIn(2000).end().appendTo(".slidesDiv");
   },5000);
 });
+
+/*************Kiosk****************/
+var colorSelect= $("#colorOption");
+// colorSelect.color= $("option :selected").color;
+
+colorSelect.change(function () {
+    var color = $(this).children(":selected").attr("class");
+    colorSelect.css('color',color);
+});
+
+
+
+
+
 
 //********* PETCARE html BUTTONS*******
 

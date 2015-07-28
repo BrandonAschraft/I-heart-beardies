@@ -18,10 +18,9 @@
     }
     
     nav li{
- 
-  padding-right: 0.95rem;
- 
-}
+    padding-right: 0.95rem;
+    }
+    
     .page_list{
         font-size:1.15rem;
         width: 100%;
@@ -37,7 +36,6 @@
       width:98%;
       margin: auto 2%;
     }
-    
     
     /************PETCARE PAGE*********/
     .environment,
@@ -57,17 +55,11 @@
       width:75%;
       margin-right:1rem;
     }
-    
 }
 
 @media screen and (max-width:970px) {
-  
   *{
       border: 1px solid blue;
-  }
-  
-  .Header_Logo{
-    /*margin-left:0;*/
   }
   
   .tagline{
@@ -77,6 +69,7 @@
     float:left;
     clear:both;
   }
+  
   nav{
     margin:40px 0 0 0;
   }
@@ -95,14 +88,15 @@
   
   .page_list li{
   display:none;
-}
-nav{
- background: transparent;
-}
-.mySelect{
-  display:block;
-  margin:auto;
-}
+  }
+  nav{
+   background: transparent;
+  }
+  
+  .mySelect{
+    display:block;
+    margin:auto;
+  }
   
 /*******Dragons Page*********/
   .dragonImgs li{
@@ -126,8 +120,8 @@ nav{
   #infoTabs {
     float:none;
     display:inline;
-    
   }
+  
   #infoTabs li{
     display:inline;
   }
@@ -150,10 +144,8 @@ nav{
   /*******Contact Page*********/
   .contact_form{
     width:60%;
-    /*float: left;*/
-    /*margin-left: 2%;*/
-    /*margin-right:0;*/
   }
+  
  .noteDiv{
    width:88%;
  }
@@ -178,16 +170,6 @@ nav{
   .tagline{
     text-align: center;
   }
-  
- 
-/*  .page_list{*/
-/*    text-align: center;*/
-/*    width: 98%;*/
-/*    margin: auto;*/
-/*    padding:0;*/
-/*}*/
-
-
 
   .navigation li{
     font-size:1.25rem;
@@ -206,60 +188,52 @@ nav{
     display:none;
   }
    
-    #index_text{
-      float: none;
-      margin:auto;
-      max-width: 80%;
-    }
-    
-    /******Pet Care Page******/
-    .environment,
-    .diet,
-    .behavior{
-      float:none;
-      margin:0 auto;
-      width: 80%;
-    }
-    
-    .textReveal{
-  font-size:1.3rem;
-    }
-    
-    .sitePic{
-      width: 200px;
-    }
-    
-    .footer{
-      margin: auto;
-    }
-    
-    /*******Information Page********/
-    #infoTabs .tab-title > a{
-      font-size:0.84rem;
-      padding:0.5rem;
+  #index_text{
+    float: none;
+    margin:auto;
+    max-width: 80%;
   }
     
-    /**********RESPONSIVE STYLES FOR 'CONTACT'********/
-/*    .DragonAvailsNote{*/
-/*      float: none;*/
-/*      margin: auto;*/
-/*      max-width: 80%;*/
-/*    }*/
-    .contact_form{
-      float:none;
-      width:90%;
-      min-width:250px;
-      margin:auto;
-}
-
-    .noteDiv{
-      width:95%;
-      margin: auto;
-    }
-    
-    
+  /******Pet Care Page******/
+  .environment,
+  .diet,
+  .behavior{
+    float:none;
+    margin:0 auto;
+    width: 80%;
   }
   
+  .textReveal{
+    font-size:1.3rem;
+  }
+  
+  .sitePic{
+    width: 200px;
+  }
+  
+  .footer{
+    margin: auto;
+  }
+  
+  /*******Information Page********/
+  #infoTabs .tab-title > a{
+    font-size:0.84rem;
+    padding:0.5rem;
+  }
+  
+  /**********RESPONSIVE STYLES FOR 'CONTACT'********/
+  .contact_form{
+    float:none;
+    width:90%;
+    min-width:250px;
+    margin:auto;
+  }
+
+  .noteDiv{
+    width:95%;
+    margin: auto;
+  }
+}
 
 @media screen and (max-width: 480px) {
   
@@ -272,11 +246,10 @@ nav{
   }
   
   #google_translate_element{
-  display:none;
-}
+    display:none;
+  }
   
   .Header_Logo {
-     
     max-width: 95%;
     margin: 0;
     float: left;
@@ -298,6 +271,7 @@ nav{
   .page_list ul{
     display:none;
   }
+  
   .page_list select{
     display:block;
   }
@@ -317,10 +291,10 @@ nav{
   /**********Index . html********/
   
   #index_text{
-      margin:auto;
-      margin-bottom:10px;
-      max-width: 100%;
-    }
+    margin:auto;
+    margin-bottom:10px;
+    max-width: 100%;
+  }
   
   #index_text p {
     font-size: 1rem;
@@ -328,6 +302,7 @@ nav{
     min-width: 250px;
     text-align:center;
   }
+  
   #photo_roll{
       clear: left;
       float:none;
@@ -345,7 +320,6 @@ nav{
     .behavior{
       margin:0 auto;
       width: 98%;
-      
     }
     
     .careText{
@@ -359,38 +333,4 @@ nav{
     font-size:0.9rem;
     padding: 1rem;
   }
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
