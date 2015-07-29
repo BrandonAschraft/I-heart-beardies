@@ -13,7 +13,7 @@ $(".page_list a").each(function(){
   $select.append($option);
 });
 
-$(".myOption").click(function(){
+$(document).on("change",".mySelect", function(){
 window.location = $select.val();
 });
 
