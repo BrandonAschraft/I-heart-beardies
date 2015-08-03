@@ -20,7 +20,9 @@
 document.getElementById("legend").innerHTML=$(".selected a").text();
 $(".navDrop").click(function(){
     $(".dropdown ul").toggle();
-  }) .mouseleave(function(){
+  }).keydown(function(){
+     $(".dropdown ul").toggle() 
+  }).mouseleave(function(){
     $(".dropdown ul").hide();
 });
 
