@@ -5,13 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic|Tinos:400,400italic' rel='stylesheet' type='text/css'>
 	<Link rel="stylesheet" href="CSS/foundation.css">
-	<Link rel="stylesheet" href="CSS/min.css">
+	<Link rel="stylesheet" href="CSS/main.css">
+	<Link rel="stylesheet" href="CSS/responsive.css">
+
 	<script src="js/vendor/modernizr.js"></script>
 	<title>I Heart Beardies</title>
 </head>
 <body class ="body">
 	<HEADER class= "header" >
-		<div id="google_translate_element" class="hideLang"></div>
+		<div id="google_translate_element"></div>
 		<script type="text/javascript">
 		function googleTranslateElementInit() {
   		new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script>
@@ -20,25 +22,39 @@
 		<span class="tagline">Where Passion breeds Quality</span>
 	</HEADER>
 	<div id="here"></div>
-		<nav>
-			<div class="page_list">
-				<ul class="navigation">
-					<li> <a href="index.html">HOME</a></li>
-					<li> <a href="dragons.html">BEARDIES</a></li>
-					<li> <a href="kiosk.html">KIOSK</a></li>
-					<li> <a href="breederGallery.html">BEARDIE FAMILY PHOTOS</a></li>
-					<li> <a href="petCare.html">PET CARE</a></li>
-					<li class="selected"> <a href="Information.html">INFORMATION</a></li>
-					<li> <a href="contact.html">CONTACT</a></li>
-				</ul>			
-			</div>
-		</nav>
+	<nav>
+		<div class="page_list">
+			<ul class="navigation">
+				<li> <a href="index.html">HOME</a></li>
+				<li> <a href="dragons.html">BEARDIES</a></li>
+				<li> <a href="kiosk.html">KIOSK</a></li>
+				<li> <a href="breederGallery.html">BEARDIE FAMILY PHOTOS</a></li>
+				<li> <a href="petCare.html">PET CARE</a></li>
+				<li class="selected"> <a href="Information.html">INFORMATION</a></li>
+				<li> <a href="contact.html">CONTACT</a></li>
+			</ul>			
+		</div>
+	</nav>
+	<div class="navDrop" tabindex="3">
+		<fieldset class="dropdown">
+  			<legend id="legend"></legend>
+	        <ul>
+	            <li><input type="radio" name="navigation-link" value="1" id="home" checked /><label for="home"><a href="index.html" id="HOME">HOME</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="2" id="beardies-gallery" /><label for="beardies-gallery"><a href="dragons.html" id="BEARDIES">BEARDIES</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="3" id="kiosk" /><label for="kiosk"><a href="kiosk.html">KIOSK</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="4" id="beardie-family-photos" /><label for="beardie-family-photos"><a href="breederGallery.html" id="BEARDIE FAMILY PHOTOS">BEARDIE FAMILY PHOTOS</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="5" id="pet-care" /><label for="pet-care"><a href="petCare.html">PET CARE</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="6" id="information" /><label for="information"><a href="Information.html">INFORMATION</a></label></li>
+	            <li><input type="radio" name="navigation-link" value="7" id="contact" /><label for="contact"><a href="contact.html">CONTACT</a></label></li>
+	        </ul>
+	        </fieldset>
+	</div>
 	<div id="tabDiv">					
 		<ul id="infoTabs" class="tabs vertical" data-tab>
-			<li class="tab-title active"><a href="#panel11">Color Morphs</a></li>
-			<li class="tab-title"><a href="#panel21">Pattern Morphs</a></li>
-			<li class="tab-title"><a href="#panel31">Genetic Morphs</a></li>
-			<li class="tab-title"><a href="#panel41">Genotypes Explained</a></li>
+			<li class="tab-title active"><a href="#panel11" tabindex="11">Color Morphs</a></li>
+			<li class="tab-title"><a href="#panel21" tabindex="12">Pattern Morphs</a></li>
+			<li class="tab-title"><a href="#panel31" tabindex="13">Genetic Morphs</a></li>
+			<li class="tab-title"><a href="#panel41" tabindex="14">Genotypes Explained</a></li>
 		</ul>
 	</div>	
 	<div id="rowDiv" class="row">

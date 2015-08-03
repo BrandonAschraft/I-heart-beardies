@@ -1,20 +1,27 @@
 /********Nav Dropdown for Small/Medium screens****/
-var $select=$('<select class="mySelect"></select>');
+// var $select=$('<select class="mySelect"></select>');
 
-$(".page_list").append($select);
-$(".page_list a").each(function(){
-  var $anchor= $(this);
-  var $option= $('<option class="myOption"></option>');
-  if($anchor.parent().hasClass("selected")){
-    $option.prop("selected", true)
-  }
-  $option.val($anchor.attr("href"));
-  $option.text($anchor.text());
-  $select.append($option);
-});
+// $(".page_list").append($select);
+// $(".page_list a").each(function(){
+//   var $anchor= $(this);
+//   var $option= $('<option class="myOption"></option>');
+//   if($anchor.parent().hasClass("selected")){
+//     $option.prop("selected", true)
+//   }
+//   $option.val($anchor.attr("href"));
+//   $option.text($anchor.text());
+//   $select.append($option);
+// });
 
-$(document).on("change",".mySelect", function(){
-window.location = $select.val();
+// $(document).on("change",".mySelect", function(){
+// window.location = $select.val();
+// });
+
+document.getElementById("legend").innerHTML=$(".selected a").text();
+$(".navDrop").click(function(){
+    $(".dropdown ul").toggle();
+  }) .mouseleave(function(){
+    $(".dropdown ul").hide();
 });
 
 

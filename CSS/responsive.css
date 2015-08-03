@@ -85,6 +85,9 @@
   padding-right:8px;
   }
   
+  .navDrop{
+    display:block
+  }
   
   .page_list li{
   display:none;

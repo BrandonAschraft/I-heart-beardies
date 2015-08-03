@@ -5,6 +5,142 @@
     /*background-color:black;*/
     
 }
+
+
+/*********************NAV FIELDSET EXPERIMENT*************************************/
+.navDrop {
+  width:99%;
+  margin:0 auto;
+  text-align:center;
+  float:right;
+  display:none;
+  cursor:pointer;
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width:98%;
+}
+
+.dropdown ul {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display:none;
+  overflow: hidden;
+}
+
+.dropdown:hover ul{
+  /*background-color: #ffffff;*/
+  /*left: 2px;*/
+  overflow: auto;
+  display:block;
+}
+
+.dropdown:focus ul{
+  /*background-color: #ffffff;*/
+  /*left: 2px;*/
+  overflow: auto;
+  display:block;
+}
+
+.dropdown ul > li {
+  list-style-type: none;
+  background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
+  text-align:center;
+  padding:8px 0;
+  border:none;
+  color: #000;
+  overflow:hidden;
+}
+
+.dropdown ul > li a{
+  text-decoration:none;
+  color: #000;
+  width: 98%;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.dropdown ul > li a:hover{
+   color: #FFF;
+}
+
+.dropdown label {
+  display: none;
+  width: 100%;
+}
+
+
+
+.dropdown > legend {
+  border:none;
+  background-image: radial-gradient(#fa0085 45%, #000 85%);
+  background-repeat:no-repeat;
+  width: 100%;
+  text-align:center;
+}
+
+.dropdown:hover > legend {
+   position: relative; 
+  overflow: hidden; 
+}
+
+.dropdown > legend:after {
+  width: 20px;
+  content: "\2335";
+  /* float: right; */
+  text-align: center;
+  /* border-left: 2px #cccccc solid; */
+  font-style: normal;
+  cursor: default;
+}
+
+.dropdown:hover > legend:after {
+  /* background-color: #99ff99; */
+}
+
+.dropdown ul input[type="radio"] {
+   display: none; 
+}
+
+.dropdown input[type="radio"]:checked ~ label {
+  display: block;
+  width: 100%;
+}
+
+
+.dropdown:hover label {
+  display: block;
+  height: 100%;
+}
+
+
+.dropdown:hover input[type="radio"]:checked ~ label {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -67,7 +203,6 @@ body {
 }
 
 nav {
-  /*border:5px solid green;*/
   background-image:radial-gradient(#fa0085,#000);
   margin: 0;
   max-width:100%;
