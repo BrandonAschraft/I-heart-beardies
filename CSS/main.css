@@ -6,122 +6,6 @@
     
 }
 
-
-/*********************NAV FIELDSET EXPERIMENT*************************************/
-.navDrop {
-  width:99%;
-  margin:0 auto;
-  text-align:center;
-  float:right;
-  display:none;
-  cursor:pointer;
-}
-
-.dropdown {
-  display: block;
-  position: relative;
-  vertical-align: middle;
-  overflow: visible;
-  padding: 0;
-  margin: 0;
-  border: none;
-  width:98%;
-}
-
-.dropdown ul {
-  position: absolute;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  display:none;
-  overflow: hidden;
-}
-
-.dropdown:hover ul{
-  overflow: auto;
-  display:block;
-}
-
-.dropdown:focus ul{
-  overflow: auto;
-  display:block;
-}
-
-.dropdown ul > li {
-  list-style-type: none;
-  background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
-  text-align:center;
-  padding:8px 0;
-  border:none;
-  color: #000;
-  overflow:hidden;
-}
-
-.dropdown ul > li a{
-  text-decoration:none;
-  color: #000;
-  width: 98%;
-  height: 30px;
-  line-height: 30px;
-  border: none;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-.dropdown ul > li a:hover{
-   color: #FFF;
-}
-
-.dropdown label {
-  display: none;
-  width: 100%;
-}
-
-
-
-.dropdown > legend {
-  border:none;
-  background-image: radial-gradient(#fa0085 45%, #000 85%);
-  background-repeat:no-repeat;
-  width: 100%;
-  text-align:center;
-}
-
-.dropdown:hover > legend {
-   position: relative; 
-  overflow: hidden; 
-}
-
-.dropdown > legend:after {
-  width: 20px;
-  content: "\2335";
-  text-align: center;
-  font-style: normal;
-  cursor: default;
-}
-
-.dropdown:hover > legend:after {
-}
-
-.dropdown ul input[type="radio"] {
-   display: none; 
-}
-
-.dropdown input[type="radio"]:checked ~ label {
-  display: block;
-  width: 100%;
-}
-
-
-.dropdown:hover label {
-  display: block;
-  height: 100%;
-}
-
-
-.dropdown:hover input[type="radio"]:checked ~ label {
-}
-
 /*Link Pseudo-classes ------------------ */
 
 a:link {
@@ -143,6 +27,110 @@ a:active {
   color: #777;
 }
 
+/*********************NAV FIELDSET*************************************/
+.navDrop {
+  cursor:pointer;
+  display:none;
+  float:right;
+  margin:0 auto;
+  text-align:center;
+  width:99%;
+  
+}
+
+.dropdown {
+  border: none;
+  display: block;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width:98%;
+}
+
+.dropdown ul {
+  display:none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown:hover ul{
+  display:block;
+  overflow: auto;
+}
+
+.dropdown:focus ul{
+  display:block;
+  overflow: auto;
+}
+
+.dropdown ul > li {
+  background-image:radial-gradient(#777, 25%, #fa0085, 35%, #000);
+  border:none;
+  color: #000;
+  list-style-type: none;
+  overflow:hidden;
+  padding:8px 0;
+  text-align:center;
+}
+
+.dropdown ul > li a{
+  background-color: transparent;
+  border: none;
+  color: #000;
+  height: 30px;
+  line-height: 30px;
+  text-decoration:none;
+  width: 98%;
+ 
+}
+
+.dropdown ul > li a:hover{
+   color: #FFF;
+}
+
+.dropdown label {
+  display: none;
+  width: 100%;
+}
+
+.dropdown > legend {
+  background: radial-gradient(#fa0085 45%, #000 85%);
+  border:none;
+  text-align:center;
+  width: 100%;
+}
+
+.dropdown:hover > legend {
+  position: relative; 
+  overflow: hidden; 
+}
+
+.dropdown > legend:after {
+  content: "\2335";
+  cursor: default;
+  text-align: center;
+  width: 20px;
+}
+
+.dropdown ul input[type="radio"] {
+   display: none; 
+}
+
+.dropdown input[type="radio"]:checked ~ label {
+  display: block;
+  width: 100%;
+}
+
+
+.dropdown:hover label {
+  display: block;
+  height: 100%;
+}
+
 
 /********Styles started w/ index.html*********/
 
@@ -152,13 +140,12 @@ body {
 }
 
 .header {
+  background: linear-gradient(white, black);
   margin:0;
-  padding:0;
-  max-height:280px; 
-  min-height:200px;
+  max-height:280px;
   max-width: 100%;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(white, black);
+  min-height:200px;
+  padding:0;
 } 
 
 #google_translate_element{
@@ -166,21 +153,19 @@ body {
 }
 
 .Header_Logo{
-  /*border: 10px solid red;*/
-  margin-left:10%;
   height:100%;
+  margin-left:10%;
 }
 
 .tagline {
-  font-family: "Libre Baskerville", cursive;
-  font-size: 2rem;
   color:#fa0085;
   clear:both;
   float:right;
+  font: 2rem "Libre Baskerville", cursive;
   margin: 0 5% 0 -100px;
   padding-top:5%;
   text-shadow:1px 1px #000;
- text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 nav {
@@ -191,9 +176,9 @@ nav {
 
 .page_list{
   font-size: 1.35rem;
+  margin: 0 auto;
   text-align:center;
   width: 85%;
-  margin: 0 auto;
 }
 
 /*.mySelect{*/
@@ -219,26 +204,23 @@ nav {
 }
 
 .langSelect{
-  width: 15%;
   height: 2rem;
+  width: 15%;
 }
 
 nav li{
   display: inline;
   padding-right: 1.25rem;
-  background:none;
 }
 
 .white_text{
-  font-family:"Tinos", sans-serif;
-  font-size:1.25rem;
   color: white;
+  font: 1.25rem "Tinos", sans-serif;
 }
 
 .grey_text{
-  font-family:"Tinos", sans-serif;
-  font-size:1.25rem;
   color: #777;
+  font-family: 1.25rem "Tinos", sans-serif;
 }
 
 .hidePic{
@@ -247,9 +229,9 @@ nav li{
 
 #index_text{
   float:left;
-  width: 45%;
   font-size: 2rem;
   margin: 3% 0 0 2%;
+  width: 45%;
 }
 
 .footer{
@@ -258,15 +240,15 @@ nav li{
 }
 
 #footerDiv{
-  max-width:300px;
   margin: auto;
+  max-width:300px;
   padding-top:1%;
 }
 
 .footText{
-  size:1rem;
-  float:left;
   color:white;
+  font-size:1rem;
+  float:left;
   margin-right:10px;
   
 }
@@ -279,17 +261,16 @@ nav li{
 
 .slidesDiv{
   float:right;
-  /*border: 5px solid white;*/
-  width:640px;
   height:480px;
-  margin-top:2%;
   margin-right:2%;
+  margin-top:2%;
   overflow: hidden;
+  width:640px;
 }
 
 .slidesDiv img{
-  width:100%;
   height:100%;
+  width:100%;
 }
 
 /*****************DRAGON STYLES********************/
@@ -303,8 +284,8 @@ nav li{
 }
 
 .dragonImgs li{
-  width:100%;
   overflow:hidden;
+  width:100%;
 }
 
 .dragonImgs li a{
@@ -312,7 +293,6 @@ nav li{
 }
 
 .img_text{
-  /*border:1px solid green;*/
   width:75%;
 }
 
@@ -325,26 +305,24 @@ nav li{
 }
 
 .borderDiv{
-  width:66%;
-  margin:1% auto;
   border-bottom: 1px solid #Fa0085;
+  margin:1% auto;
+  width:66%;
 }
 
 /*******************KIOSK STYLES**************************/
 #payForm{
-  padding:0;
-  /*border: 1px solid blue;*/
-  width:60%;
   margin: 0 auto;
+  padding:0;
+  width:60%;
 }
 
 #inventory{
-  padding:0;
   display:inline;
+  padding:0;
 }
 
 .harnessPics img{
-  /*width:100%;*/
   margin-left: 6%;
 }
 
@@ -354,21 +332,17 @@ nav li{
 
 .harnessList{
   padding:0;
-  /*border:1px solid green;*/
   width: 100%;
-  /*height: 9rem;*/
 }
 
 .harnessList li{
+  display:inline;
   padding:0;
   width:50%;
-  /*border: 1px solid orange;*/
-  display:inline;
 }
 
 .waterDiv{
-    /*border:1px solid white;*/
-    height: 18rem;
+  height: 18rem;
 }
 
 .waterList{
@@ -396,9 +370,9 @@ nav li{
 
 /******************FAMILY PHOTOS STYLES********************/
 .famPicDiv{
-  width:40%;
   margin: 3% auto;
   text-align:center;
+  width:40%;
 }
 
 .familyPic {
@@ -410,37 +384,36 @@ nav li{
 
 /*******Sections********/
 .environment{
-  width: 30%;
   float: left;
   margin-left: 2%;
+  width: 30%;
 }
   
 .diet{
-  width:30%;
   float: left;
   margin: 0 3%;
+  width:30%;
 }
   
 .behavior{
-  width: 30%;
   float: left;
   margin-right: 2%;
+  width: 30%;
 }
 
 .sectionHeaders{
   color: #777;
   margin-top: 5%;
   text-align: center;
-  font-size: 1.3rem;
-  font-weight: bold;
+  font:bold 1.3rem;
 }
 
 /****Pet Care Section Images****/
 
 .siteImg{
-  width:100%;
   margin:0;
   text-align:center;
+  width:100%;
 }
 
 /****Column Data, General *****/
@@ -450,23 +423,22 @@ h3 {
 }
 
 .spans {
-  max-width: 100%;
-  max-height: 2rem;
-  display:block;
   background-image: radial-gradient(#fa0085, transparent 80%);
-  /*border-radius: 55px 10px;*/
+  display:block;
   margin: 5px;
+  max-height: 2rem;
+  max-width: 100%;
 }
 
 .textReveal{
-  font-size:1.3rem;
-  color: #AAA;
-  text-shadow:2px 2px #000;
-  border:none;
-  line-height: 2rem;
-  width:100%;
   background: none;
+  border:none;
+  color: #AAA;
+  font-size:1.3rem;
+  line-height: 2rem;
   margin-bottom: 10px;
+  text-shadow:2px 2px #000;
+  width:100%;
 }
 
 .textReveal:hover {
@@ -506,9 +478,9 @@ tfoot {
 
 /******TABS***********/
 #infoTabs{
-  max-width:225px;
-  margin-top:2%;
   margin-left:3%;
+  margin-top:2%;
+  max-width:225px;
 }
 
 #infoTabs a{
@@ -516,16 +488,17 @@ tfoot {
 }
 
 #infoTabs .tab-title > a {
-      display: inline-block;
-      background-color: #000;
-      color: #Fa0085;
-      font-size: 1rem;
-      padding: 1rem 2rem;
+  background-color: #000;
+  color: #Fa0085;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem 2rem;
 }
 
 #infoTabs .tab-title.active a {
-      background-image: radial-gradient(#Fa0085, transparent 80%);
-      color: #FFF; }
+  background-image: radial-gradient(#Fa0085, transparent 80%);
+  color: #FFF;
+}
 
 /******** Info Content********/
 #rowDiv{
@@ -533,8 +506,8 @@ tfoot {
 }
       
 .content h3{
-  text-align:left;
   font-size:1.5rem;
+  text-align:left;
 }
 
 .topDiv{   /***Not to be confused with #here div ()aka the target***/
@@ -551,7 +524,7 @@ tfoot {
 }
 
 .brdTable td{
-  font-size:0.65rem;
+  font-size: 1rem;
 }
 
 .geneTable{
@@ -559,17 +532,16 @@ tfoot {
 }
 
 .geneTable tr{
+  background: black;
   color:white;
   width:100%;
-  background: black;
-  border:1px solid #F00;
 }
 
 /*******************CONTACT PAGE STYLES*******************/
 
 .noteDiv{
-  width: 60%;
   margin: 5% auto 0;
+  width: 60%;
 }
 
 .disclaimer{
@@ -582,16 +554,16 @@ tfoot {
 }
 
 .form_title {
+  color:#fa0085;
+  font-size:3rem;
   margin: 0 0 30px 0;
   text-align: center;
-  font-size:3rem;
-  color:#fa0085;
 }
 
 .labels {
-  margin: auto 0;
-  display:block;
   color:white;
+  display:block;
+  margin: auto 0;
   min-width:100%;
 }
 
@@ -601,7 +573,7 @@ tfoot {
 }
 
 .fields {
-  min-width:100%;
   background: #333;
   color:#f0f0f0;
+  min-width:100%;
 }

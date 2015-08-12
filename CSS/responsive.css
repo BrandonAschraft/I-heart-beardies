@@ -6,55 +6,55 @@
     /*  border: 1px solid green;*/
     /*}*/
     
-    .Header_Logo{
-     /*margin: 0;*/
-     clear:right;
-    }
-    
-    .tagline{
-        font-size:1.5rem;
-        margin: 40px 30px 0px -150px;
-        clear:right;
-    }
-    
-    nav li{
+  .Header_Logo{
+    clear:right;
+  }
+  
+  .tagline{
+    clear:right;
+    font-size:1.5rem;
+    margin: 40px 30px 0px -150px;
+      
+  }
+  
+  nav li{
     padding-right: 0.95rem;
-    }
-    
-    .page_list{
-        font-size:1.15rem;
-        width: 100%;
-        margin: 0 auto;
-    }
-    
-    .slidesDiv{
-      float:none;
-      margin:2% auto;
-    }
-    
-    #index_text{
-      width:98%;
-      margin: auto 2%;
-    }
-    
-    /************PETCARE PAGE*********/
-    .environment,
-    .diet,
-    .behavior{
-      margin: 0 1%;
-    }
-    
-    .textReveal{
-      font-size:0.87rem;
-      width:100%;
-    }
-    
-    /****Information Page********/
-    #rowDiv{
-      float:right;
-      width:75%;
-      margin-right:1rem;
-    }
+  }
+  
+  .page_list{
+    font-size:1.15rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .slidesDiv{
+    float:none;
+    margin:2% auto;
+  }
+  
+  #index_text{
+    margin: auto 2%;
+    width:98%;
+  }
+  
+  /************PETCARE PAGE*********/
+  .environment,
+  .diet,
+  .behavior{
+    margin: 0 1%;
+  }
+  
+  .textReveal{
+    font-size:0.87rem;
+    width:100%;
+  }
+  
+  /****Information Page********/
+  #rowDiv{
+    float:right;
+    margin-right:1rem;
+    width:75%;
+  }
 }
 
 @media screen and (max-width:970px) {
@@ -63,11 +63,11 @@
   /*}*/
   
   .tagline{
+    clear:both;
+    float:left;
     font-size:1rem;
     margin: -25px 0 0 25%;
     padding: 0;
-    float:left;
-    clear:both;
   }
   
   nav{
@@ -79,10 +79,10 @@
   }
   
   .page_list{
-  font-size: 0.85rem;
-  width: 100%;
-  margin: 0;
-  padding-right:8px;
+    font-size: 0.85rem;
+    margin: 0;
+    padding-right:8px;
+    width: 100%;
   }
   
   .navDrop{
@@ -90,24 +90,24 @@
   }
   
   .page_list li{
-  display:none;
+    display:none;
   }
   nav{
    background: transparent;
   }
   
-  .mySelect{
-    display:block;
-    margin:auto;
-  }
+  /*.mySelect{*/
+  /*  display:block;*/
+  /*  margin:auto;*/
+  /*}*/
   
 /*******Dragons Page*********/
   .borderDiv{
     display:none;
   }
   .dragonImgs li{
-    text-align:center;
     margin-bottom:3%;
+    text-align:center;
   }
   .img_text{
     width:100%;
@@ -130,13 +130,13 @@
     
   /****Information Page********/
   #tabDiv{
-    width:100%;
     text-align:center;
+    width:100%;
   }
   
   #infoTabs {
-    float:none;
     display:inline;
+    float:none;
   }
   
   #infoTabs li{
@@ -149,8 +149,8 @@
   
   #rowDiv{
     float:none;
-    width:96%;
     margin:0 auto;
+    width:96%;
   }
   
   .content h2{
@@ -176,8 +176,8 @@
    /* }*/
   
   .header{
-    text-align: center;
     padding-right:2%;
+    text-align: center;
   }
   
   .Header_Logo {
@@ -194,8 +194,8 @@
   
   .hidePic{
     display: block;
-    width: 94%;
     margin: 1% auto;
+    width: 94%;
   }
   .hidePic img {
     width:100%;
@@ -253,14 +253,14 @@
   /**********RESPONSIVE STYLES FOR 'CONTACT'********/
   .contact_form{
     float:none;
-    width:90%;
-    min-width:250px;
     margin:auto;
+    min-width:250px;
+    width:90%;
   }
 
   .noteDiv{
-    width:95%;
     margin: auto;
+    width:95%;
   }
 }
 
@@ -279,22 +279,22 @@
   }
   
   .Header_Logo {
-    max-width: 95%;
-    margin: 0;
     float: left;
+    margin: 0;
+    max-width: 95%;
   }
   
   .tagline{
+    background-color: transparent;
     clear:right;
+    display: block;
     font-size: 0.75rem;
     margin: auto;
-    display: block;
-    background-color: transparent;
   }
   
   nav {
-    padding:0;
     margin-top:20%;
+    padding:0;
   }
   
   .page_list ul{
@@ -311,10 +311,10 @@
   
   .footer{
     clear: both;
-    max-width: 100%;
-    float: left;
-    margin-left:0;
     display:inline-block;
+    float: left;
+    max-width: 100%;
+    margin-left:0;
   }
   
   /**********Index . html********/
@@ -326,8 +326,8 @@
   }
   
   #index_text p {
-    font-size: 1rem;
     clear: right;
+    font-size: 1rem;
     min-width: 250px;
     text-align:center;
   }
@@ -357,9 +357,9 @@
     
 /******Information Page******/
   #infoTabs .tab-title > a{
-    width:200px;
-    margin:0 3%;
     font-size:0.9rem;
+    margin:0 3%;
     padding: 1rem;
+    width:200px;
   }
 }
