@@ -15,12 +15,12 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: #777;
 }
 
 .selected a,
 a:hover {
-  color: rgba(255, 255, 255, .4);
+  color: white;
 }
 
 a:active {
